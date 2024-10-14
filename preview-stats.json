@@ -1,0 +1,391 @@
+{
+  "modules": [
+    {
+      "id": "./sb-preview/runtime.js",
+      "name": "./sb-preview/runtime.js",
+      "reasons": [
+        {
+          "moduleName": "./iframe.html"
+        }
+      ]
+    },
+    {
+      "id": "/virtual:/@storybook/builder-vite/vite-app.js",
+      "name": "/virtual:/@storybook/builder-vite/vite-app.js",
+      "reasons": [
+        {
+          "moduleName": "./iframe.html"
+        }
+      ]
+    },
+    {
+      "id": "/virtual:/@storybook/builder-vite/setup-addons.js",
+      "name": "/virtual:/@storybook/builder-vite/setup-addons.js",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        }
+      ]
+    },
+    {
+      "id": "/virtual:/@storybook/builder-vite/storybook-stories.js",
+      "name": "/virtual:/@storybook/builder-vite/storybook-stories.js",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        }
+      ]
+    },
+    {
+      "id": "./.storybook/preview.ts",
+      "name": "./.storybook/preview.ts",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        },
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/vite-app.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zps-button/ZpsButton.stories.tsx",
+      "name": "./src/components/zps-button/ZpsButton.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/richText/RichText.stories.tsx",
+      "name": "./src/components/richText/RichText.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/product-highlight/Product-highlight.stories.tsx",
+      "name": "./src/components/product-highlight/Product-highlight.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/process-chain/procesChain.stories.tsx",
+      "name": "./src/components/process-chain/procesChain.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/partner-communication/PartnerCommunication.stories.tsx",
+      "name": "./src/components/partner-communication/PartnerCommunication.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/mediaText-simple/mediaText.stories.tsx",
+      "name": "./src/components/mediaText-simple/mediaText.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/link-list/linkList.stories.tsx",
+      "name": "./src/components/link-list/linkList.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/hero/Hero.stories.tsx",
+      "name": "./src/components/hero/Hero.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short/HeaderShort.stories.tsx",
+      "name": "./src/components/header-short/HeaderShort.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-long/HeaderLong.stories.tsx",
+      "name": "./src/components/header-long/HeaderLong.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-square/CardSqaure.stories.tsx",
+      "name": "./src/components/card-square/CardSqaure.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-media-component/CardMedia.stories.tsx",
+      "name": "./src/components/card-media-component/CardMedia.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/USP/Usp.stories.tsx",
+      "name": "./src/components/USP/Usp.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/Teaser-simple/Teaser-simple.stories.tsx",
+      "name": "./src/components/Teaser-simple/Teaser-simple.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
+      "id": "./.storybook/background.ts",
+      "name": "./.storybook/background.ts",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        }
+      ]
+    },
+    {
+      "id": "./.storybook/customViewports.ts",
+      "name": "./.storybook/customViewports.ts",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        }
+      ]
+    },
+    {
+      "id": "./.storybook/themes.ts",
+      "name": "./.storybook/themes.ts",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/tailwind.css",
+      "name": "./src/tailwind.css",
+      "reasons": [
+        {
+          "moduleName": "./.storybook/preview.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/product-highlight/Product-highlight.tsx",
+      "name": "./src/components/product-highlight/Product-highlight.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/process-chain/ProcessChain.tsx",
+      "name": "./src/components/process-chain/ProcessChain.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/process-chain/procesChain.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zps-button/ZpsButton.tsx",
+      "name": "./src/components/zps-button/ZpsButton.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
+        },
+        {
+          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zps-button/zps-button.interface.ts",
+      "name": "./src/components/zps-button/zps-button.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
+        },
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.tsx"
+        },
+        {
+          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/link-list/linkList.tsx",
+      "name": "./src/components/link-list/linkList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/link-list/linkList.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short/HeaderShort.tsx",
+      "name": "./src/components/header-short/HeaderShort.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short/HeaderShort.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-long/HeaderLong.tsx",
+      "name": "./src/components/header-long/HeaderLong.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/USP/Usp.tsx",
+      "name": "./src/components/USP/Usp.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/richText/RichText.tsx",
+      "name": "./src/components/richText/RichText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/richText/RichText.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/partner-communication/PartnerCommunication.tsx",
+      "name": "./src/components/partner-communication/PartnerCommunication.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/mediaText-simple/MediaText.tsx",
+      "name": "./src/components/mediaText-simple/MediaText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/mediaText-simple/mediaText.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/hero/Hero.tsx",
+      "name": "./src/components/hero/Hero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/hero/Hero.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-square/CardSquare.tsx",
+      "name": "./src/components/card-square/CardSquare.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square/CardSqaure.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/tailwind/styles/focus.ts",
+      "name": "./src/tailwind/styles/focus.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-media-component/CardMedia.tsx",
+      "name": "./src/components/card-media-component/CardMedia.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
+        }
+      ]
+    }
+  ]
+}
