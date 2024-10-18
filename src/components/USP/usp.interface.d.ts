@@ -1,6 +1,8 @@
+import { ProductIcons } from '@zepdev/design-system-component-library-react';
+export type ProductIconNames = keyof typeof ProductIcons;
 export interface USPProps {
     textColor?: 'white' | 'blue';
-    iconName: string;
+    iconName: ProductIconNames;
     count: number;
     headline: string;
     description: string;
