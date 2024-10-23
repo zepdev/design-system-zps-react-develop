@@ -4,7 +4,14 @@ declare const meta: {
     title: string;
     component: import("react").FC<ProductHighLightProps>;
     tags: string[];
-    argTypes: {};
+    argTypes: {
+        buttonVariant: {
+            control: {
+                type: string;
+                options: string[];
+            };
+        };
+    };
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

@@ -184,6 +184,24 @@
       ]
     },
     {
+      "id": "./src/components/USP/Usp.tsx",
+      "name": "./src/components/USP/Usp.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./.storybook/background.ts",
       "name": "./.storybook/background.ts",
       "reasons": [
@@ -227,19 +245,22 @@
           "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
         },
         {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/components/zps-button/index.ts"
         },
         {
           "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
         },
         {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
           "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
         },
         {
-          "moduleName": "./src/components/hero/Hero.tsx"
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
         },
         {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+          "moduleName": "./src/components/hero/Hero.tsx"
         }
       ]
     },
@@ -251,7 +272,7 @@
           "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
         },
         {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/components/zps-button/index.ts"
         },
         {
           "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
@@ -263,10 +284,19 @@
           "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
         },
         {
-          "moduleName": "./src/components/hero/Hero.tsx"
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
         },
         {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+          "moduleName": "./src/components/hero/Hero.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zps-button/index.ts",
+      "name": "./src/components/zps-button/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.stories.tsx"
         }
       ]
     },
@@ -298,15 +328,6 @@
       ]
     },
     {
-      "id": "./src/components/header-long/HeaderLong.tsx",
-      "name": "./src/components/header-long/HeaderLong.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/header-short/HeaderShort.tsx",
       "name": "./src/components/header-short/HeaderShort.tsx",
       "reasons": [
@@ -316,29 +337,20 @@
       ]
     },
     {
+      "id": "./src/components/header-long/HeaderLong.tsx",
+      "name": "./src/components/header-long/HeaderLong.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/lead-text/LeadText.tsx",
       "name": "./src/components/lead-text/LeadText.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/lead-text/LeadText.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/USP/Usp.tsx",
-      "name": "./src/components/USP/Usp.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/USP/Usp.stories.tsx"
         }
       ]
     },
