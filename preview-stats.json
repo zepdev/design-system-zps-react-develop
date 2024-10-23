@@ -175,71 +175,29 @@
       ]
     },
     {
-      "id": "./src/components/zps-button/ZpsButton.tsx",
-      "name": "./src/components/zps-button/ZpsButton.tsx",
+      "id": "./src/components/header-long/HeaderLong.tsx",
+      "name": "./src/components/header-long/HeaderLong.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
-        },
-        {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
-        },
-        {
-          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/Hero.tsx"
-        },
-        {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
         }
       ]
     },
     {
-      "id": "./src/components/zps-button/zps-button.interface.ts",
-      "name": "./src/components/zps-button/zps-button.interface.ts",
+      "id": "./src/components/USP/Usp.tsx",
+      "name": "./src/components/USP/Usp.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
-        },
-        {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
-        },
-        {
-          "moduleName": "./src/components/zps-button/ZpsButton.tsx"
-        },
-        {
-          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/Hero.tsx"
-        },
-        {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
         }
       ]
     },
     {
-      "id": "./src/components/product-highlight/Product-highlight.tsx",
-      "name": "./src/components/product-highlight/Product-highlight.tsx",
+      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/product-highlight/Product-highlight.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/process-chain/ProcessChain.tsx",
-      "name": "./src/components/process-chain/ProcessChain.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/process-chain/procesChain.stories.tsx"
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
         }
       ]
     },
@@ -280,6 +238,75 @@
       ]
     },
     {
+      "id": "./src/components/product-highlight/Product-highlight.tsx",
+      "name": "./src/components/product-highlight/Product-highlight.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zps-button/ZpsButton.tsx",
+      "name": "./src/components/zps-button/ZpsButton.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
+        },
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+        },
+        {
+          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zps-button/zps-button.interface.ts",
+      "name": "./src/components/zps-button/zps-button.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
+        },
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+        },
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.tsx"
+        },
+        {
+          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/process-chain/ProcessChain.tsx",
+      "name": "./src/components/process-chain/ProcessChain.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/process-chain/procesChain.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/link-list/linkList.tsx",
       "name": "./src/components/link-list/linkList.tsx",
       "reasons": [
@@ -298,29 +325,29 @@
       ]
     },
     {
-      "id": "./src/components/header-long/HeaderLong.tsx",
-      "name": "./src/components/header-long/HeaderLong.tsx",
+      "id": "./src/components/card-square/CardSquare.tsx",
+      "name": "./src/components/card-square/CardSquare.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
+          "moduleName": "./src/components/card-square/CardSqaure.stories.tsx"
         }
       ]
     },
     {
-      "id": "./src/components/USP/Usp.tsx",
-      "name": "./src/components/USP/Usp.tsx",
+      "id": "./src/tailwind/styles/focus.ts",
+      "name": "./src/tailwind/styles/focus.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/USP/Usp.stories.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
         }
       ]
     },
     {
-      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "id": "./src/components/card-media-component/CardMedia.tsx",
+      "name": "./src/components/card-media-component/CardMedia.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
         }
       ]
     },
@@ -352,38 +379,23 @@
       ]
     },
     {
+      "id": "./src/components/mediaText-simple/mediaText.interface.ts",
+      "name": "./src/components/mediaText-simple/mediaText.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/mediaText-simple/mediaText.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/hero/Hero.tsx",
       "name": "./src/components/hero/Hero.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/hero/Hero.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-square/CardSquare.tsx",
-      "name": "./src/components/card-square/CardSquare.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-square/CardSqaure.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/tailwind/styles/focus.ts",
-      "name": "./src/tailwind/styles/focus.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-media-component/CardMedia.tsx",
-      "name": "./src/components/card-media-component/CardMedia.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
         }
       ]
     }
