@@ -184,33 +184,6 @@
       ]
     },
     {
-      "id": "./src/components/header-long/HeaderLong.tsx",
-      "name": "./src/components/header-long/HeaderLong.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/USP/Usp.tsx",
-      "name": "./src/components/USP/Usp.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/USP/Usp.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./.storybook/background.ts",
       "name": "./.storybook/background.ts",
       "reasons": [
@@ -254,19 +227,19 @@
           "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
         },
         {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
-        },
-        {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
-        },
-        {
           "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
         },
         {
           "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
         },
         {
           "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
         }
       ]
     },
@@ -278,22 +251,22 @@
           "moduleName": "./src/components/zps-button/ZpsButton.stories.tsx"
         },
         {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+        },
+        {
           "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
         },
         {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
-        },
-        {
           "moduleName": "./src/components/zps-button/ZpsButton.tsx"
-        },
-        {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
         },
         {
           "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
         },
         {
           "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
         }
       ]
     },
@@ -325,6 +298,15 @@
       ]
     },
     {
+      "id": "./src/components/header-long/HeaderLong.tsx",
+      "name": "./src/components/header-long/HeaderLong.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/header-short/HeaderShort.tsx",
       "name": "./src/components/header-short/HeaderShort.tsx",
       "reasons": [
@@ -343,29 +325,20 @@
       ]
     },
     {
-      "id": "./src/components/card-square/CardSquare.tsx",
-      "name": "./src/components/card-square/CardSquare.tsx",
+      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/card-square/CardSqaure.stories.tsx"
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
         }
       ]
     },
     {
-      "id": "./src/tailwind/styles/focus.ts",
-      "name": "./src/tailwind/styles/focus.ts",
+      "id": "./src/components/USP/Usp.tsx",
+      "name": "./src/components/USP/Usp.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-media-component/CardMedia.tsx",
-      "name": "./src/components/card-media-component/CardMedia.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
         }
       ]
     },
@@ -414,6 +387,33 @@
       "reasons": [
         {
           "moduleName": "./src/components/hero/Hero.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-square/CardSquare.tsx",
+      "name": "./src/components/card-square/CardSquare.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square/CardSqaure.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/tailwind/styles/focus.ts",
+      "name": "./src/tailwind/styles/focus.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-media-component/CardMedia.tsx",
+      "name": "./src/components/card-media-component/CardMedia.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
         }
       ]
     }
