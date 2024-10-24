@@ -24,6 +24,9 @@ export interface MediaTextImageProps {
 export interface MediaTextTaglineProps {
     children: ReactNode;
 }
+export interface MediaTextBodyProps {
+    children: ReactNode;
+}
 export interface MediaTextHeadlineProps {
     children: ReactNode;
 }

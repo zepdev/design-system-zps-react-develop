@@ -1,3 +1,3 @@
 export { MediaText } from './MediaText';
-export type { MediaTextProps, MediaTextBodyProps, MediaTextImageProps, MediaTextTaglineProps, MediaTextHeadlineProps, MediaTextDescriptionProps, MediaTextButtonProps } from './mediaText.interface';
+export type { MediaTextButtonProps, MediaTextDescriptionProps, MediaTextHeadlineProps, MediaTextImageProps, MediaTextTaglineProps, } from './mediaText.interface';
 //# sourceMappingURL=index.d.ts.map

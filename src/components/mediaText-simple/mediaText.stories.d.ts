@@ -4,7 +4,7 @@ declare const meta: {
     component: {
         ({ imageAlignment, children, variant, headline, tagline, description, }: import("./mediaText.interface").MediaTextContentProps & import("./mediaText.interface").BaseMediaProps): import("react/jsx-dev-runtime").JSX.Element;
         Image: ({ src, alt, aspectRatio }: import("./mediaText.interface").MediaTextImageProps) => import("react/jsx-dev-runtime").JSX.Element;
-        Body: ({ children }: MediaTextBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
+        Body: ({ children }: import("./mediaText.interface").MediaTextBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
         Tagline: () => import("react/jsx-dev-runtime").JSX.Element;
         Headline: () => import("react/jsx-dev-runtime").JSX.Element;
         Description: () => import("react/jsx-dev-runtime").JSX.Element;
