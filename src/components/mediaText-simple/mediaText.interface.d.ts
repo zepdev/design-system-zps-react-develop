@@ -13,6 +13,9 @@ export interface MediaTextContentProps {
     description?: string;
     children?: ReactNode;
 }
+export interface MediaTextBodyProps {
+    children: ReactNode;
+}
 export interface MediaTextImageProps {
     src: string;
     alt: string;
