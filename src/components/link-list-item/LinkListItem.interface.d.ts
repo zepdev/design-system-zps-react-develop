@@ -4,5 +4,6 @@ export interface LinkListItemProps {
     description?: string;
     links: LinkProps[];
     theme?: 'cat' | 'power-systems';
+    className?: string;
 }
 //# sourceMappingURL=LinkListItem.interface.d.ts.map
