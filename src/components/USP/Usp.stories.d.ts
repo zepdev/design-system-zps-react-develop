@@ -4,7 +4,20 @@ declare const meta: {
     title: string;
     component: import("react").FC<USPProps>;
     tags: string[];
-    argTypes: {};
+    argTypes: {
+        variant: {
+            control: {
+                type: string;
+                options: string[];
+            };
+        };
+        iconName: {
+            control: {
+                type: string;
+                options: string[];
+            };
+        };
+    };
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

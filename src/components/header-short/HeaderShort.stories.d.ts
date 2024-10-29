@@ -2,9 +2,16 @@ import type { StoryObj } from '@storybook/react';
 import { HeaderShortProps } from './headershort.interface';
 declare const meta: {
     title: string;
-    component: import("react").FC<HeaderShortProps>;
+    component: ({ variant, tagline, headline, showArrow, className }: HeaderShortProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
-    argTypes: {};
+    argTypes: {
+        variant: {
+            control: {
+                type: string;
+                options: string[];
+            };
+        };
+    };
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

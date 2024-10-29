@@ -1,0 +1,1 @@
+{"version":3,"file":"global-variants-42c1cda2.js","sources":["../../src/interfaces/global-variants.ts"],"sourcesContent":["export enum GlobalVariants {\n  Zps = 'ZPS',\n  Cat = 'CAT',\n}\n"],"names":["GlobalVariants"],"mappings":"AAAY,IAAAA,GAAAA,IACVA,EAAA,IAAM,MACNA,EAAA,IAAM,MAFIA,IAAAA,GAAA,CAAA,CAAA"}
