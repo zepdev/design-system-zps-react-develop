@@ -1,13 +1,12 @@
 export interface CardMediaProps {
     imageSrc: string;
     imageAlt: string;
-    imageClasses?: string[];
-    imageVariant?: 'square' | '';
-    headlineText: string;
+    imageOrientation?: 'vertical' | 'horizontal';
+    headline: string;
     description: string;
     linkText: string;
     linkSrc: string;
-    classes?: string[];
-    id?: string;
+    theme?: 'cat' | 'power-systems';
+    className?: string;
 }
 //# sourceMappingURL=cardmedia.interface.d.ts.map
