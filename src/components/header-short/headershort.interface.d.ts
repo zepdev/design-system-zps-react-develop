@@ -1,12 +1,16 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-export declare enum HeaderShortDefault {
-    default = "default"
+export declare enum HeaderShortVariants {
+    ZpsBg = "ZPS_BG",
+    CatBg = "CAT_BG"
 }
-export interface HeaderShortProps {
-    showArrow: boolean;
+export interface HeaderShortProps extends HeaderShortComponentProps {
+}
+export interface HeaderShortComponentProps {
+    variant?: GlobalVariants | HeaderShortVariants;
+    hasBackground?: boolean;
+    showArrow?: boolean;
     tagline?: string;
-    headline: string;
-    variant: GlobalVariants | HeaderShortDefault;
+    headline?: string;
     className?: string;
 }
 //# sourceMappingURL=headershort.interface.d.ts.map

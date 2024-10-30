@@ -1,14 +1,15 @@
 import { StoryObj } from '@storybook/react';
+import { GlobalVariants } from '../../interfaces/global-variants';
 declare const meta: {
     title: string;
     component: import("react").FC<import("./SingleLinkList.interface").SingleLinkListProps>;
     tags: string[];
     argTypes: {
-        theme: {
+        variant: {
             children: {
                 control: {
                     type: string;
-                    options: string[];
+                    options: GlobalVariants[];
                 };
             };
         };

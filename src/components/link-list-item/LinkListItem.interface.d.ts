@@ -5,6 +5,7 @@ export interface LinkListItemProps {
     description?: string;
     links: LinkProps[];
     variant?: GlobalVariants;
+    isMultiListItem?: boolean;
     className?: string;
 }
 //# sourceMappingURL=LinkListItem.interface.d.ts.map

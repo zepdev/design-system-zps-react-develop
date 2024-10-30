@@ -2,7 +2,7 @@ import type { StoryObj } from '@storybook/react';
 import { HeaderShortProps } from './headershort.interface';
 declare const meta: {
     title: string;
-    component: ({ variant, tagline, headline, showArrow, className }: HeaderShortProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: import("react").FC<HeaderShortProps>;
     tags: string[];
     argTypes: {
         variant: {
@@ -19,4 +19,6 @@ export declare const Default: Story;
 export declare const LongHeadline: Story;
 export declare const ComponentWithoutTagline: Story;
 export declare const ComponentWithoutArrow: Story;
+export declare const ComponentWithBackgroundZPS: Story;
+export declare const ComponentWithBackgroundCat: Story;
 //# sourceMappingURL=HeaderShort.stories.d.ts.map
