@@ -2,7 +2,7 @@ import type { StoryObj } from '@storybook/react';
 declare const meta: {
     title: string;
     component: {
-        ({ children }: import("./hero.interface").HeroProps): import("react/jsx-dev-runtime").JSX.Element;
+        ({ variant, children }: import("./hero.interface").HeroProps): import("react/jsx-dev-runtime").JSX.Element;
         Image: ({ imageSrc, imageAlt }: import("./hero.interface").HeroImageProps) => import("react/jsx-dev-runtime").JSX.Element;
         Body: ({ children }: import("./hero.interface").HeroBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
         Header: ({ children }: import("./hero.interface").HeroHeadlineProps) => import("react/jsx-dev-runtime").JSX.Element;
@@ -14,6 +14,12 @@ declare const meta: {
         children: {
             control: {
                 disable: boolean;
+            };
+        };
+        variant: {
+            control: {
+                type: string;
+                options: string[];
             };
         };
     };

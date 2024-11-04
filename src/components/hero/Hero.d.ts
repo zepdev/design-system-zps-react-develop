@@ -1,6 +1,10 @@
+import { GlobalVariants } from '../../interfaces/global-variants';
 import { HeroArrowIconProps, HeroBodyProps, HeroButtonProps, HeroHeadlineProps, HeroImageProps, HeroProps } from './hero.interface';
+export declare const useHeroContext: () => {
+    variant: GlobalVariants;
+};
 declare const Hero: {
-    ({ children }: HeroProps): import("react/jsx-dev-runtime").JSX.Element;
+    ({ variant, children }: HeroProps): import("react/jsx-dev-runtime").JSX.Element;
     Image: ({ imageSrc, imageAlt }: HeroImageProps) => import("react/jsx-dev-runtime").JSX.Element;
     Body: ({ children }: HeroBodyProps) => import("react/jsx-dev-runtime").JSX.Element;
     Header: ({ children }: HeroHeadlineProps) => import("react/jsx-dev-runtime").JSX.Element;
