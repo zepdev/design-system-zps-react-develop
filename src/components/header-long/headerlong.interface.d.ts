@@ -1,12 +1,6 @@
-export interface HeaderLongProps {
-    textColor?: 'white' | 'black' | 'indigo';
-    tagline?: string;
-    headline: string;
-    description?: string;
-    buttonOnClick?: () => {};
-    linkText?: string;
-    buttonText?: string;
-    linkHref?: string;
-    type?: 'button' | 'link' | 'none';
+import { HeaderLongComponentProps } from '../header-long-component';
+export interface HeaderLongProps extends Omit<HeaderLongComponentProps, 'textColor'> {
+    theme?: 'cat' | 'power-systems';
+    hasBackground?: boolean;
 }
 //# sourceMappingURL=headerlong.interface.d.ts.map
