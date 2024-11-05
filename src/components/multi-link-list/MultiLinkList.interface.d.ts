@@ -1,10 +1,9 @@
 import { HTMLAttributes } from 'react';
 import { LinkListItemProps } from '../link-list-item';
-import { GlobalVariants } from '../../interfaces/global-variants';
+import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
 export interface MultiLinkListProps extends HTMLAttributes<HTMLDivElement> {
     linkLists: LinkListItemProps[];
-    transparentLinkItem?: boolean;
-    headline: string;
-    variant?: GlobalVariants;
+    headline?: string;
+    variant?: GlobalVariants | GlobalVariantExtended;
 }
 //# sourceMappingURL=MultiLinkList.interface.d.ts.map
