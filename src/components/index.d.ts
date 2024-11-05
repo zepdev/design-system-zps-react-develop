@@ -15,4 +15,5 @@ export * from './single-link-list';
 export * from './Teaser-simple';
 export * from './USP';
 export * from './zps-button';
+export * from './zps-button';
 //# sourceMappingURL=index.d.ts.map
