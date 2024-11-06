@@ -3,6 +3,7 @@ export * from './anchor-navigation-list';
 export * from './card-media-component';
 export * from './card-media-pattern';
 export * from './card-square';
+export * from './card-square-list';
 export * from './header-long';
 export * from './header-short';
 export * from './hero';
