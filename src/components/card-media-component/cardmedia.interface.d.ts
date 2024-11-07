@@ -1,3 +1,4 @@
+import { GlobalVariants } from '../../interfaces/global-variants';
 export interface CardMediaProps {
     imageSrc: string;
     imageAlt: string;
@@ -6,7 +7,7 @@ export interface CardMediaProps {
     description: string;
     linkText: string;
     linkSrc: string;
-    theme?: 'cat' | 'power-systems';
+    variant?: GlobalVariants;
     className?: string;
 }
 //# sourceMappingURL=cardmedia.interface.d.ts.map
