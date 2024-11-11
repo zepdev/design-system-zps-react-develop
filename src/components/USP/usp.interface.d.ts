@@ -6,7 +6,7 @@ export declare enum HeaderShortDefault {
 }
 export interface USPProps {
     iconName?: ProductIconNames;
-    count: string;
+    count?: string;
     headline: string;
     description: string;
     variant?: GlobalVariants | HeaderShortDefault;

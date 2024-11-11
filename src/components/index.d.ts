@@ -1,6 +1,4 @@
 export * from '../interfaces/global-variants';
-export * from './Teaser-simple';
-export * from './USP';
 export * from './anchor-navigation-card';
 export * from './anchor-navigation-list';
 export * from './card-media-component';
@@ -17,5 +15,8 @@ export * from './multi-link-list';
 export * from './product-highlight';
 export * from './richText';
 export * from './single-link-list';
+export * from './Teaser-simple';
+export * from './USP';
+export * from './usp-list';
 export * from './zps-button';
 //# sourceMappingURL=index.d.ts.map

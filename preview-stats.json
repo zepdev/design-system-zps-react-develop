@@ -314,6 +314,9 @@
           "moduleName": "./src/components/card-square-list/CardSquareList.stories.tsx"
         },
         {
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
+        },
+        {
           "moduleName": "./src/components/single-link-list/SingleLinkList.stories.tsx"
         },
         {
@@ -321,9 +324,6 @@
         },
         {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/USP/Usp.stories.tsx"
         },
         {
           "moduleName": "./src/components/card-square/CardSquare.stories.tsx"
@@ -362,10 +362,10 @@
           "moduleName": "./src/components/USP/Usp.tsx"
         },
         {
-          "moduleName": "./src/components/usp-list/UspList.tsx"
+          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
         },
         {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
+          "moduleName": "./src/components/usp-list/UspList.tsx"
         },
         {
           "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
@@ -541,6 +541,27 @@
       ]
     },
     {
+      "id": "./src/components/footer/Footer.tsx",
+      "name": "./src/components/footer/Footer.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/footer/Footer.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/USP/Usp.tsx",
+      "name": "./src/components/USP/Usp.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/usp-list/UspList.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/zps-button/ZpsButton.tsx",
       "name": "./src/components/zps-button/ZpsButton.tsx",
       "reasons": [
@@ -649,27 +670,6 @@
       ]
     },
     {
-      "id": "./src/components/footer/Footer.tsx",
-      "name": "./src/components/footer/Footer.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/footer/Footer.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/USP/Usp.tsx",
-      "name": "./src/components/USP/Usp.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/USP/Usp.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/usp-list/UspList.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/header-long-component/HeaderLongComponent.tsx",
       "name": "./src/components/header-long-component/HeaderLongComponent.tsx",
       "reasons": [
@@ -751,6 +751,18 @@
       ]
     },
     {
+      "id": "./public/assets/moving-forward-arrow.svg",
+      "name": "./public/assets/moving-forward-arrow.svg",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short-component/HeaderShortComponent.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/mediaText-simple/MediaText.tsx",
       "name": "./src/components/mediaText-simple/MediaText.tsx",
       "reasons": [
@@ -768,18 +780,6 @@
         },
         {
           "moduleName": "./src/components/mediaText-simple/MediaText.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./public/assets/moving-forward-arrow.svg",
-      "name": "./public/assets/moving-forward-arrow.svg",
-      "reasons": [
-        {
-          "moduleName": "./src/components/header-short-component/HeaderShortComponent.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/Hero.tsx"
         }
       ]
     },
@@ -853,15 +853,6 @@
       ]
     },
     {
-      "id": "./src/components/header-short/index.ts",
-      "name": "./src/components/header-short/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/usp-list/UspList.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/link-list-item/index.ts",
       "name": "./src/components/link-list-item/index.ts",
       "reasons": [
@@ -870,6 +861,15 @@
         },
         {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short/index.ts",
+      "name": "./src/components/header-short/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/usp-list/UspList.tsx"
         }
       ]
     }
