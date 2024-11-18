@@ -9,5 +9,6 @@ export interface CardSquareProps extends HTMLAttributes<HTMLDivElement> {
     children?: ReactNode;
     variant?: GlobalVariants;
     isCardSquarePattern?: boolean;
+    cardListsLength?: number | undefined;
 }
 //# sourceMappingURL=card-square.interface.d.ts.map

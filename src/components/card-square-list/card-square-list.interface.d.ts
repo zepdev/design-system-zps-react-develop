@@ -7,5 +7,6 @@ export interface CardSquareListProps {
     imageAlt: string;
     children?: ReactNode;
     variant?: GlobalVariants;
+    cardListsLength?: number;
 }
 //# sourceMappingURL=card-square-list.interface.d.ts.map
