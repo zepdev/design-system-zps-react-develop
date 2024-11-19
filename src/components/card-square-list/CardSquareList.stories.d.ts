@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { CardSquareListProps } from './card-square-list.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<CardSquareListProps>;
+    component: import('react').FC<CardSquareListProps>;
     tags: string[];
     argTypes: {
         headlines: {

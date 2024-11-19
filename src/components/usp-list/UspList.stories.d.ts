@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { USPListProps } from './usp-list.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<USPListProps>;
+    component: import('react').FC<USPListProps>;
     tags: string[];
     argTypes: {};
 };

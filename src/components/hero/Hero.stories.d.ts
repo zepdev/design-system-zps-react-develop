@@ -1,7 +1,8 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
+
 declare const meta: {
     title: string;
-    component: ({ variant, headline, buttonSecondary, buttonPrimary, buttonPrimaryOnClick, buttonSecondaryOnClick, imageAlt, imageSrc, }: import("./hero.interface").HeroProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ variant, headline, buttonSecondary, buttonPrimary, buttonPrimaryOnClick, buttonSecondaryOnClick, imageAlt, imageSrc, }: import('./hero.interface').HeroProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };

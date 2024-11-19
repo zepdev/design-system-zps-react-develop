@@ -1,5 +1,6 @@
 import { ProductIcons } from '@zepdev/design-system-component-library-react';
 import { GlobalVariants } from '../../interfaces/global-variants';
+
 export type ProductIconNames = keyof typeof ProductIcons;
 export declare enum HeaderShortDefault {
     default = "default"

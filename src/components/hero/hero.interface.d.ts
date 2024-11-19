@@ -1,5 +1,6 @@
 import { MouseEvent } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
+
 export interface HeroProps extends HeroImageProps {
     variant?: GlobalVariants;
     headline: string;

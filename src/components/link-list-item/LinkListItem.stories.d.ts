@@ -1,7 +1,8 @@
 import { StoryObj } from '@storybook/react';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<import("./LinkListItem.interface").LinkListItemProps>;
+    component: import('react').FC<import('./LinkListItem.interface').LinkListItemProps>;
     tags: string[];
     argTypes: {
         theme: {

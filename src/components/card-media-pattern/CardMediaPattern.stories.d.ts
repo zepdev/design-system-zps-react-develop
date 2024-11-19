@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { CardMediaPatternProps } from './CardMediaPattern.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<CardMediaPatternProps>;
+    component: import('react').FC<CardMediaPatternProps>;
     tags: string[];
     argTypes: {};
 };

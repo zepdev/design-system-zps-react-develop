@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { AnchorNavigationCardProps, AnchorNavigationVariant } from './anchor-navigation-card.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<AnchorNavigationCardProps>;
+    component: import('react').FC<AnchorNavigationCardProps>;
     tags: string[];
     argTypes: {
         isLoading: {

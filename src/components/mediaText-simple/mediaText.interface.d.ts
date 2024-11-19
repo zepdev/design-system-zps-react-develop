@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+
 export declare enum MediaTextVariant {
     Zps = "ZPS",
     Cat = "CAT"

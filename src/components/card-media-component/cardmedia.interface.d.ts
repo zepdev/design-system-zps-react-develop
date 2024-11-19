@@ -1,4 +1,5 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
+
 export interface CardMediaProps {
     imageSrc: string;
     imageAlt: string;

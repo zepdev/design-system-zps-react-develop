@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { HeaderShortProps } from './headershort.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<HeaderShortProps>;
+    component: import('react').FC<HeaderShortProps>;
     tags: string[];
     argTypes: {
         variant: {

@@ -1,8 +1,9 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { FooterProps } from './Footer.interface';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<FooterProps>;
+    component: import('react').FC<FooterProps>;
     tags: string[];
     argTypes: {};
 };

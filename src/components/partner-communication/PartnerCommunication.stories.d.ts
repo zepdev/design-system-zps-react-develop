@@ -1,5 +1,6 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
 import { PartnerCommunicationProps } from './partner-communication.interface';
+
 declare const meta: {
     title: string;
     component: ({ headline, children, variant }: PartnerCommunicationProps) => import("react/jsx-dev-runtime").JSX.Element;

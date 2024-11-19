@@ -1,5 +1,6 @@
 import { ButtonHTMLAttributes, MouseEvent } from 'react';
 import { ZpsButtonVariant } from '../zps-button';
+
 export type ProductItem = {
     title?: string;
     content: string;

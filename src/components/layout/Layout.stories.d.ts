@@ -1,7 +1,8 @@
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
+
 declare const meta: {
     title: string;
-    component: ({ children, className }: import("./layout.interface").LayoutProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ children, className }: import('./layout.interface').LayoutProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };

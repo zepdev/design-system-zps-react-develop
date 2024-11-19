@@ -1,5 +1,6 @@
 import { MouseEvent } from 'react';
 import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
+
 export interface LinkComponentProps {
     linkText?: string;
     linkHref?: string;
