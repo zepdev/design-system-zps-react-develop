@@ -12,7 +12,7 @@ export * from './header-long';
 export * from './header-short';
 export * from './hero';
 export * from './lead-text';
-export * from './mediaText-simple';
+export * from './media-text-pattern';
 export * from './multi-link-list';
 export * from './product-highlight';
 export * from './richText';

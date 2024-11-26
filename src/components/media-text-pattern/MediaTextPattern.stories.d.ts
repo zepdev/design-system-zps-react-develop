@@ -1,13 +1,12 @@
 import { StoryObj } from '@storybook/react';
-import { RichTextProps } from './richText.interface';
 
 declare const meta: {
     title: string;
-    component: ({ content, children, variant }: RichTextProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: import('react').FC<import('./MediaTextPattern.interface').MediaTextPatternProps>;
     tags: string[];
     argTypes: {};
 };
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
-//# sourceMappingURL=RichText.stories.d.ts.map
+//# sourceMappingURL=MediaTextPattern.stories.d.ts.map

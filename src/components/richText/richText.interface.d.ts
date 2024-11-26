@@ -1,49 +1,20 @@
 import { default as React } from 'react';
+import { BlocksContent } from '@strapi/blocks-react-renderer';
+import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
 
-export interface TextStyle {
-    fontWeight?: string;
-    fontStyle?: string;
+export interface RichTextProps extends Partial<RichTextBaseProps> {
+    content: BlocksContent;
+    variant?: GlobalVariants | GlobalVariantExtended;
 }
-export interface Block {
-    type: string;
-    depth: number;
-    text: string;
-    inlineStyleRanges: Array<{
-        offset: number;
-        length: number;
-        style: string;
-    }>;
-    entityRanges: Array<{
-        offset: number;
-        length: number;
-        key: number;
-    }>;
-    items: string[];
+export interface RichTextBaseProps {
+    children: React.ReactNode;
+    className?: string;
+}
+export interface HeaderProps extends RichTextBaseProps {
+    level: 1 | 2 | 3 | 4 | 5 | 6;
+}
+export interface ListProps extends Omit<RichTextBaseProps, 'children'> {
+    items: React.ReactNode[];
     ordered: boolean;
-}
-export interface EntityMap {
-    [key: string]: {
-        type: string;
-        mutability: string;
-        data: {
-            url: string;
-        };
-    };
-}
-export interface Content {
-    blocks: Block[];
-    entityMap: EntityMap;
-    images: Array<{
-        offset: number;
-        length: number;
-        key: number;
-        alt: string;
-        src: string;
-    }>;
-}
-export interface RichTextProps {
-    content: Content;
-    textColor?: 'white' | 'indigo' | 'black';
-    children?: React.ReactNode;
 }
 //# sourceMappingURL=richText.interface.d.ts.map
