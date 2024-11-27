@@ -1,4 +1,4 @@
-interface NavUtilityItem {
+export interface NavUtilityItem {
     link: string;
     label: string;
 }
@@ -39,5 +39,4 @@ export interface LanguageSwitcherProps {
     locales?: Locale[];
     setSelectedLocale?: (x: Locale) => void;
 }
-export {};
 //# sourceMappingURL=navigation.interface.d.ts.map

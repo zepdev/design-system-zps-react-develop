@@ -16,6 +16,7 @@ export * from './hero';
 export * from './lead-text';
 export * from './media-text-pattern';
 export * from './multi-link-list';
+export * from './navigation';
 export * from './product-highlight';
 export * from './richText';
 export * from './single-link-list';
