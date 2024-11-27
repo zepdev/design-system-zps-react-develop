@@ -1,5 +1,7 @@
 
 export * from '../interfaces/global-variants';
+export * from './Teaser-simple';
+export * from './USP';
 export * from './accrodion-pattern';
 export * from './anchor-navigation-card';
 export * from './anchor-navigation-list';
@@ -17,9 +19,8 @@ export * from './multi-link-list';
 export * from './product-highlight';
 export * from './richText';
 export * from './single-link-list';
-export * from './Teaser-simple';
-export * from './USP';
 export * from './usp-list';
+export * from './video';
 export * from './zps-button';
 export * from './image-image';
 //# sourceMappingURL=index.d.ts.map
