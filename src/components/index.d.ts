@@ -21,4 +21,5 @@ export * from './Teaser-simple';
 export * from './USP';
 export * from './usp-list';
 export * from './zps-button';
+export * from './image-image';
 //# sourceMappingURL=index.d.ts.map
