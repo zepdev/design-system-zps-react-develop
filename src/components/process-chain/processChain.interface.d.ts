@@ -1,4 +1,4 @@
-import { FunctionalIconNames } from 'lib';
+import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
 import { HTMLAttributes } from 'react';
 
 export interface LinkItem {

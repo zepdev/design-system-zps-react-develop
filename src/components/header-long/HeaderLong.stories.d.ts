@@ -1,9 +1,8 @@
 import { StoryObj } from '@storybook/react';
-import { HeaderLongProps } from './headerlong.interface';
 
 declare const meta: {
     title: string;
-    component: ({ variant, ...rest }: HeaderLongProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ variant, ...rest }: import('../header-long-component').HeaderLongComponentProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };

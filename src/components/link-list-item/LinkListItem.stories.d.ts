@@ -5,12 +5,10 @@ declare const meta: {
     component: import('react').FC<import('./LinkListItem.interface').LinkListItemProps>;
     tags: string[];
     argTypes: {
-        theme: {
-            children: {
-                control: {
-                    type: string;
-                    options: string[];
-                };
+        variant: {
+            control: {
+                type: string;
+                options: string[];
             };
         };
     };

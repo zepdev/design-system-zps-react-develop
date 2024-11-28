@@ -1,5 +1,4 @@
 import { HeaderShortComponentProps } from '../header-short-component';
 
-export interface HeaderShortProps extends HeaderShortComponentProps {
-}
+export type HeaderShortProps = HeaderShortComponentProps;
 //# sourceMappingURL=headershort.interface.d.ts.map

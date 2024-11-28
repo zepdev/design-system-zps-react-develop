@@ -1,4 +1,4 @@
-import { BlocksContent } from '../../../node_modules/@strapi/blocks-react-renderer/dist';
+import { BlocksContent } from '@strapi/blocks-react-renderer';
 import { GlobalVariants } from '../../interfaces/global-variants';
 
 export interface AccordionPatternProps {

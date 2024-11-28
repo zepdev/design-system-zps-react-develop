@@ -1,3 +1,4 @@
+import { default as React } from 'react';
 import { AnchorNavigationCardProps, AnchorNavigationVariant } from './anchor-navigation-card.interface';
 
 export declare const anchorCardVariants: {

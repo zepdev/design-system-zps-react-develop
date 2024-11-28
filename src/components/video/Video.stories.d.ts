@@ -2,7 +2,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ videos, className, variant }: import('./video.interface').VideoProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ videos, variant }: import('./video.interface').VideoProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {
         variant: {
