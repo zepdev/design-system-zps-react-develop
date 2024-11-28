@@ -13,6 +13,7 @@ export * from './footer';
 export * from './header-long';
 export * from './header-short';
 export * from './hero';
+export * from './image-image';
 export * from './lead-text';
 export * from './media-text-pattern';
 export * from './multi-link-list';
@@ -23,5 +24,4 @@ export * from './single-link-list';
 export * from './usp-list';
 export * from './video';
 export * from './zps-button';
-export * from './image-image';
 //# sourceMappingURL=index.d.ts.map

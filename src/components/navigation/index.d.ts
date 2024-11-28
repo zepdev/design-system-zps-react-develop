@@ -1,3 +1,3 @@
 export { Navigation } from './Navigation';
-export type { NavigationProps } from './navigation.interface';
+export type { Locale, NavUtilityItem, NavigationItem, NavigationProps } from './navigation.interface';
 //# sourceMappingURL=index.d.ts.map
