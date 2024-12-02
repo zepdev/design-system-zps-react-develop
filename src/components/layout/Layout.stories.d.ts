@@ -2,7 +2,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ children, className, ...props }: import('./layout.interface').LayoutProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ children, className, testId }: import('./layout.interface').LayoutProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };

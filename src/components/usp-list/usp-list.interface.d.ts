@@ -1,5 +1,5 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-import { USPProps } from '../USP/usp.interface';
+import { USPProps } from '../USP';
 
 export interface USPListProps {
     headerTitle: string;

@@ -1,11 +1,11 @@
 import { ReactNode } from 'react';
 import { AnchorNavigationCardProps } from '../anchor-navigation-card';
-import { AnchorNavigationVariant } from '../anchor-navigation-card/anchor-navigation-card.interface';
+import { HeaderLongProps } from '../header-long';
+import { GlobalVariants } from '../../interfaces/global-variants';
 
-export interface AnchorNavigationListProps {
-    headlines: Omit<AnchorNavigationCardProps, 'variant'>[];
-    variant: AnchorNavigationVariant;
-    isLoading?: boolean;
+export interface AnchorNavigationListProps extends Partial<Omit<HeaderLongProps, 'variant'>> {
+    navigationCards: Omit<AnchorNavigationCardProps, 'variant'>[];
+    variant: GlobalVariants;
     children?: ReactNode;
     className?: string;
 }

@@ -2,10 +2,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ linkChain, contentItems }: {
-        linkChain: any;
-        contentItems: any;
-    }) => import("react/jsx-dev-runtime").JSX.Element;
+    component: import('react').FC<import('./processChain.interface').ProcessChainProps>;
     tags: string[];
     argTypes: {};
 };

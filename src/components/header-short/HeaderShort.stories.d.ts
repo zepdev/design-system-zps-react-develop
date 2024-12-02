@@ -1,8 +1,9 @@
 import { StoryObj } from '@storybook/react';
+import { HeaderShortProps } from './headershort.interface';
 
 declare const meta: {
     title: string;
-    component: import('react').FC<import('../header-short-component').HeaderShortComponentProps>;
+    component: import('react').FC<HeaderShortProps>;
     tags: string[];
     argTypes: {
         variant: {

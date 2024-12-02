@@ -3,7 +3,7 @@ import { AccordionPatternProps } from './accordion.interface';
 
 declare const meta: {
     title: string;
-    component: ({ topDescription, bottomDescription, contents, variant }: AccordionPatternProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: import('react').FC<AccordionPatternProps>;
     tags: string[];
     argTypes: {
         variant: {

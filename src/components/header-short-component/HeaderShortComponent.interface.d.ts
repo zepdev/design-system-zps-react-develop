@@ -2,7 +2,6 @@ import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-v
 
 export interface HeaderShortComponentProps {
     variant?: GlobalVariants | GlobalVariantExtended;
-    hasBackground?: boolean;
     showArrow?: boolean;
     tagline?: string;
     headline?: string;

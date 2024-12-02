@@ -1,16 +1,10 @@
-import { ReactNode } from 'react';
+import { GlobalVariants } from '../../interfaces/global-variants';
 
-export declare enum AnchorNavigationVariant {
-    Zps = "ZPS",
-    Cat = "CAT"
-}
 export interface AnchorNavigationCardProps {
     headline: string;
     linkLabel: string;
     scrollToIdLink: string;
-    variant: AnchorNavigationVariant;
-    isLoading?: boolean;
-    children?: ReactNode;
+    variant: GlobalVariants;
     className?: string;
 }
 //# sourceMappingURL=anchor-navigation-card.interface.d.ts.map

@@ -4,14 +4,7 @@ declare const meta: {
     title: string;
     component: import('react').FC<import('./LinkListItem.interface').LinkListItemProps>;
     tags: string[];
-    argTypes: {
-        variant: {
-            control: {
-                type: string;
-                options: string[];
-            };
-        };
-    };
+    argTypes: {};
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

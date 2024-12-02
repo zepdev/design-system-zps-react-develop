@@ -19,7 +19,7 @@ export * from './media-text-pattern';
 export * from './multi-link-list';
 export * from './navigation';
 export * from './product-highlight';
-export * from './richText';
+export * from './rich-text-pattern';
 export * from './single-link-list';
 export * from './usp-list';
 export * from './video';

@@ -6,20 +6,9 @@ declare const meta: {
     component: import('react').FC<AnchorNavigationListProps>;
     tags: string[];
     argTypes: {
-        isLoading: {
+        navigationCards: {
             control: {
                 type: string;
-            };
-        };
-        headlines: {
-            control: {
-                type: string;
-            };
-        };
-        variant: {
-            control: {
-                type: string;
-                options: string[];
             };
         };
     };
