@@ -17,7 +17,7 @@ export interface MediaTextImageProps {
     alt: string;
 }
 export interface MediaTextButtonProps {
-    labelPrimary: string;
+    labelPrimary?: string;
     labelSecondary: string;
     onClickPrimary?: () => void;
     onClickSecondary?: () => void;

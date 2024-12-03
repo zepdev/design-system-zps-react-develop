@@ -380,13 +380,13 @@
           "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
         },
         {
+          "moduleName": "./src/components/header-short/HeaderShort.stories.tsx"
+        },
+        {
           "moduleName": "./src/components/header-short-component/HeaderShortComponent.stories.tsx"
         },
         {
           "moduleName": "./src/components/hero/Hero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/header-short/HeaderShort.stories.tsx"
         },
         {
           "moduleName": "./src/components/link-list-item/LinkListItem.stories.tsx"
@@ -434,16 +434,19 @@
           "moduleName": "./src/components/card-square/CardSquare.stories.tsx"
         },
         {
-          "moduleName": "./src/components/header-short-component/HeaderShortComponent.tsx"
+          "moduleName": "./src/components/header-short/HeaderShort.tsx"
         },
         {
           "moduleName": "./src/components/header-long/HeaderLong.tsx"
         },
         {
-          "moduleName": "./src/components/header-short/HeaderShort.tsx"
+          "moduleName": "./src/components/header-short-component/HeaderShortComponent.tsx"
         },
         {
           "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
         },
         {
           "moduleName": "./src/components/lead-text/LeadText.tsx"
@@ -452,16 +455,10 @@
           "moduleName": "./src/components/link-list-item/LinkListItem.tsx"
         },
         {
-          "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
-        },
-        {
           "moduleName": "./src/components/media-text/MediaText.tsx"
         },
         {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
         },
         {
           "moduleName": "./src/components/process-chain/ProcessChain.tsx"
@@ -470,7 +467,7 @@
           "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
         },
         {
-          "moduleName": "./src/components/rich-text/RichText.tsx"
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
         },
         {
           "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
@@ -479,13 +476,19 @@
           "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
         },
         {
+          "moduleName": "./src/components/rich-text/RichText.tsx"
+        },
+        {
           "moduleName": "./src/components/usp-list/UspList.tsx"
+        },
+        {
+          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         },
         {
           "moduleName": "./src/components/USP/Usp.tsx"
         },
         {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/anchor-navigation-card/AnchorNavigationCard.tsx"
@@ -494,22 +497,19 @@
           "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
+          "moduleName": "./src/components/card-square/CardSquare.tsx"
         },
         {
           "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
         },
         {
-          "moduleName": "./src/components/card-square/CardSquare.tsx"
-        },
-        {
           "moduleName": "./src/components/footer/Footer.tsx"
         },
         {
-          "moduleName": "./src/utils/commonCSS.ts"
+          "moduleName": "./src/components/video/Video.tsx"
         },
         {
-          "moduleName": "./src/components/video/Video.tsx"
+          "moduleName": "./src/utils/commonCSS.ts"
         },
         {
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.tsx"
@@ -522,6 +522,24 @@
       "reasons": [
         {
           "moduleName": "./src/components/header-long/HeaderLong.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short/HeaderShort.tsx",
+      "name": "./src/components/header-short/HeaderShort.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short/HeaderShort.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/image-image/ImageImage.tsx",
+      "name": "./src/components/image-image/ImageImage.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/image-image/ImageImage.stories.tsx"
         }
       ]
     },
@@ -543,24 +561,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/hero/Hero.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/header-short/HeaderShort.tsx",
-      "name": "./src/components/header-short/HeaderShort.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/header-short/HeaderShort.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/image-image/ImageImage.tsx",
-      "name": "./src/components/image-image/ImageImage.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/image-image/ImageImage.stories.tsx"
         }
       ]
     },
@@ -637,24 +637,6 @@
       ]
     },
     {
-      "id": "./src/assets/zep-cat-logo.svg",
-      "name": "./src/assets/zep-cat-logo.svg",
-      "reasons": [
-        {
-          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/navigation/Navigation.tsx",
-      "name": "./src/components/navigation/Navigation.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/process-chain/ProcessChain.tsx",
       "name": "./src/components/process-chain/ProcessChain.tsx",
       "reasons": [
@@ -690,6 +672,24 @@
       "reasons": [
         {
           "moduleName": "./src/components/product-highlight/Product-highlight.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/assets/zep-cat-logo.svg",
+      "name": "./src/assets/zep-cat-logo.svg",
+      "reasons": [
+        {
+          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/navigation/Navigation.tsx",
+      "name": "./src/components/navigation/Navigation.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
         }
       ]
     },
@@ -830,10 +830,10 @@
           "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
-          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
+          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
         },
         {
           "moduleName": "./src/components/video/Video.tsx"
@@ -919,15 +919,6 @@
       ]
     },
     {
-      "id": "./src/components/card-media-pattern/CardMediaPattern.tsx",
-      "name": "./src/components/card-media-pattern/CardMediaPattern.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/card-square/CardSquare.tsx",
       "name": "./src/components/card-square/CardSquare.tsx",
       "reasons": [
@@ -940,14 +931,41 @@
       ]
     },
     {
-      "id": "./public/assets/moving-forward-arrow.svg",
-      "name": "./public/assets/moving-forward-arrow.svg",
+      "id": "./src/components/card-media-pattern/CardMediaPattern.tsx",
+      "name": "./src/components/card-media-pattern/CardMediaPattern.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/header-short-component/HeaderShortComponent.tsx"
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short-component/index.ts",
+      "name": "./src/components/header-short-component/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short/HeaderShort.tsx"
         },
         {
-          "moduleName": "./src/components/hero/Hero.tsx"
+          "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/lead-text/LeadText.tsx"
+        },
+        {
+          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
+        },
+        {
+          "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
+        },
+        {
+          "moduleName": "./src/components/usp-list/UspList.tsx"
+        },
+        {
+          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         }
       ]
     },
@@ -956,19 +974,19 @@
       "name": "./src/components/layout/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+          "moduleName": "./src/components/header-short/HeaderShort.tsx"
         },
         {
-          "moduleName": "./src/components/header-short/HeaderShort.tsx"
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
         },
         {
           "moduleName": "./src/components/hero/Hero.tsx"
         },
         {
-          "moduleName": "./src/components/lead-text/LeadText.tsx"
+          "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
         },
         {
-          "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
+          "moduleName": "./src/components/lead-text/LeadText.tsx"
         },
         {
           "moduleName": "./src/components/process-chain/ProcessChain.tsx"
@@ -989,10 +1007,10 @@
           "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
-          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
+          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
         },
         {
           "moduleName": "./src/components/footer/Footer.tsx"
@@ -1007,10 +1025,10 @@
       "name": "./src/utils/commonCSS.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/header-long/HeaderLong.tsx"
+          "moduleName": "./src/components/header-short/HeaderShort.tsx"
         },
         {
-          "moduleName": "./src/components/header-short/HeaderShort.tsx"
+          "moduleName": "./src/components/header-long/HeaderLong.tsx"
         },
         {
           "moduleName": "./src/components/lead-text/LeadText.tsx"
@@ -1039,32 +1057,23 @@
       ]
     },
     {
-      "id": "./src/components/header-short-component/index.ts",
-      "name": "./src/components/header-short-component/index.ts",
+      "id": "./public/assets/moving-forward-arrow.svg",
+      "name": "./public/assets/moving-forward-arrow.svg",
       "reasons": [
         {
-          "moduleName": "./src/components/header-short/HeaderShort.tsx"
+          "moduleName": "./src/components/header-short-component/HeaderShortComponent.tsx"
         },
         {
-          "moduleName": "./src/components/lead-text/LeadText.tsx"
-        },
+          "moduleName": "./src/components/hero/Hero.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/media-text/index.ts",
+      "name": "./src/components/media-text/index.ts",
+      "reasons": [
         {
           "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
-        },
-        {
-          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
-        },
-        {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/usp-list/UspList.tsx"
-        },
-        {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         }
       ]
     },
@@ -1083,15 +1092,6 @@
         },
         {
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/media-text/index.ts",
-      "name": "./src/components/media-text/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
         }
       ]
     },
@@ -1159,24 +1159,6 @@
       ]
     },
     {
-      "id": "./src/components/card-square/index.ts",
-      "name": "./src/components/card-square/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-media-component/index.ts",
-      "name": "./src/components/card-media-component/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
-        }
-      ]
-    },
-    {
       "id": "./public/assets/yellow-right-arrow.svg",
       "name": "./public/assets/yellow-right-arrow.svg",
       "reasons": [
@@ -1191,6 +1173,24 @@
       "reasons": [
         {
           "moduleName": "./src/components/card-square/CardSquare.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-media-component/index.ts",
+      "name": "./src/components/card-media-component/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-square/index.ts",
+      "name": "./src/components/card-square/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
         }
       ]
     },

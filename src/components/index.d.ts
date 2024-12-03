@@ -1,7 +1,5 @@
 
 export * from '../interfaces/global-variants';
-export * from './Teaser-simple';
-export * from './USP';
 export * from './accrodion-pattern';
 export * from './anchor-navigation-card';
 export * from './anchor-navigation-list';
@@ -15,12 +13,19 @@ export * from './header-short';
 export * from './hero';
 export * from './image-image';
 export * from './lead-text';
+export * from './link-list-item';
+export * from './media-text';
 export * from './media-text-pattern';
 export * from './multi-link-list';
 export * from './navigation';
+export * from './partner-communication';
+export * from './process-chain';
 export * from './product-highlight';
+export * from './rich-text';
 export * from './rich-text-pattern';
 export * from './single-link-list';
+export * from './Teaser-simple';
+export * from './USP';
 export * from './usp-list';
 export * from './video';
 export * from './zps-button';
