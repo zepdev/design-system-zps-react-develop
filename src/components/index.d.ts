@@ -23,6 +23,7 @@ export * from './process-chain';
 export * from './product-highlight';
 export * from './rich-text';
 export * from './rich-text-pattern';
+export * from './scrollbar';
 export * from './single-link-list';
 export * from './Teaser-simple';
 export * from './USP';
