@@ -30,4 +30,5 @@ export * from './USP';
 export * from './usp-list';
 export * from './video';
 export * from './zps-button';
+export * from './image-image-pattern';
 //# sourceMappingURL=index.d.ts.map
