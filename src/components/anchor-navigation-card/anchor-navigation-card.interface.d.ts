@@ -1,7 +1,7 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
 
 export interface AnchorNavigationCardProps {
-    headline: string;
+    headline?: string;
     linkLabel: string;
     scrollToIdLink: string;
     variant: GlobalVariants;
