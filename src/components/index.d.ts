@@ -26,6 +26,7 @@ export * from './rich-text-pattern';
 export * from './scrollbar';
 export * from './single-link-list';
 export * from './Teaser-simple';
+export * from './text-highlight';
 export * from './USP';
 export * from './usp-list';
 export * from './video';
