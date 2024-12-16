@@ -5,6 +5,7 @@ export interface Point {
     y: number;
     description: string;
     label: string;
+    step?: string;
 }
 export interface InfographicImageProps {
     imageUrl: string;

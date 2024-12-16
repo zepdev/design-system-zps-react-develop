@@ -6,7 +6,8 @@ interface InfoPointProps {
     variant: GlobalVariants;
     activePoint?: Point;
     setActivePoint: (x: Point) => void;
+    width?: number;
 }
-declare const InfoPoint: ({ point, variant, setActivePoint, activePoint }: InfoPointProps) => import("react/jsx-dev-runtime").JSX.Element;
+declare const InfoPoint: ({ point, variant, setActivePoint, activePoint, width }: InfoPointProps) => import("react/jsx-dev-runtime").JSX.Element;
 export default InfoPoint;
 //# sourceMappingURL=InfoPoint.d.ts.map
