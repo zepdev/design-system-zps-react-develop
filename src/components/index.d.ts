@@ -23,6 +23,7 @@ export * from './media-text-pattern';
 export * from './modal-component';
 export * from './multi-link-list';
 export * from './navigation';
+export * from './news-details';
 export * from './partner-communication';
 export * from './process-chain';
 export * from './product-highlight';
