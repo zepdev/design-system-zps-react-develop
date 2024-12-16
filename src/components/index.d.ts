@@ -30,6 +30,8 @@ export * from './rich-text';
 export * from './rich-text-pattern';
 export * from './scrollbar';
 export * from './single-link-list';
+export * from './slider';
+export * from './Teaser-simple';
 export * from './text-highlight';
 export * from './usp-list';
 export * from './video';
