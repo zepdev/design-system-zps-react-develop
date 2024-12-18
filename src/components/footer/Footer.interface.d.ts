@@ -5,5 +5,6 @@ export interface FooterProps extends Omit<MultiLinkListProps, 'variant'> {
     socialMediaLinks: LinkProps[];
     socialMediaTitle: string;
     footerLinks: LinkProps[];
+    footerText?: string;
 }
 //# sourceMappingURL=Footer.interface.d.ts.map
