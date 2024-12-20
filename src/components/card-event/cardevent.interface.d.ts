@@ -10,5 +10,6 @@ export interface CardEventProps {
     linkLabel?: string;
     linkSrc?: string;
     variant?: GlobalVariants;
+    className?: string;
 }
 //# sourceMappingURL=cardevent.interface.d.ts.map

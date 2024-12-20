@@ -7,6 +7,7 @@ export interface LinkComponentProps {
     type?: 'primary-button' | 'secondary-button' | 'link' | 'none';
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
     variant?: GlobalVariants | GlobalVariantExtended;
+    className?: string;
 }
 export interface HeaderLongComponentProps extends LinkComponentProps {
     tagline?: string;
