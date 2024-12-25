@@ -27,4 +27,9 @@ export declare const SevenItems: Story;
 export declare const EightItems: Story;
 export declare const NineItems: Story;
 export declare const TenItems: Story;
+export declare const ElevenItems: Story;
+export declare const TwelveItems: Story;
+export declare const ThirteenItems: Story;
+export declare const FourteenItems: Story;
+export declare const FifteenItems: Story;
 //# sourceMappingURL=MultiLinkList.stories.d.ts.map
