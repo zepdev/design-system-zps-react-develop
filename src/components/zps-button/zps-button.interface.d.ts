@@ -5,7 +5,8 @@ export declare enum ZpsButtonVariant {
     Primary = "primary",
     Secondary = "secondary",
     SecondaryCat = "secondary-cat",
-    SecondaryZps = "secondary-zps"
+    SecondaryZps = "secondary-zps",
+    Tertiary = "tertiary"
 }
 export interface ZpsButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     className?: string;

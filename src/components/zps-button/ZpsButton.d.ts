@@ -5,6 +5,7 @@ export declare const zpsButtonVariants: {
     "secondary-zps": string[];
     secondary: string[];
     "secondary-cat": string[];
+    tertiary: string[];
 };
 export declare const zpsbutton: (props?: ({
     variant?: ZpsButtonVariant | null | undefined;
