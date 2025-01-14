@@ -19,21 +19,43 @@ export declare enum MachineGenSetType {
     STATIONARY = "stationary",
     MOBILE = "mobile"
 }
-export interface UsedMachineCardProps {
+export interface UsedMachineCardProps extends UsedMachineDescriptionProps {
     imageSrc: string;
-    category: MachineCategory;
-    name: string;
-    power?: number;
-    rating?: MachineRating;
-    year: number;
-    operatingHours?: number;
-    location: {
-        city: string;
-        country: string;
-    };
-    fuel?: MachineFuel;
     type?: MachineGenSetType;
+}
+export interface IUsedMachine {
+    availability?: string;
+    category: MachineCategory;
+    certification?: string;
+    city: string;
+    country: string;
+    frequency?: string;
+    frequencyRange?: string;
+    fuel?: MachineFuel;
+    gNumber?: string;
     isMarine?: boolean;
     locale: LocaleVariants;
+    manufacturer?: string;
+    name: string;
+    operatingHours?: number;
+    postalCode: number;
+    power?: number;
+    rating?: MachineRating;
+    serialNumber?: string;
+    speed?: string;
+    status?: string;
+    voltage?: string;
+    weight?: string;
+    year: number;
+}
+export interface UsedMachineDescriptionProps extends IUsedMachine {
+    boldLabel?: boolean;
+}
+export interface ContentRowProps {
+    boldLabel?: boolean;
+    className?: string;
+    hideBorder?: boolean;
+    label: string;
+    value: string | number;
 }
 //# sourceMappingURL=UsedMachineCard.interface.d.ts.map

@@ -35,6 +35,7 @@ export * from './single-link-list';
 export * from './slider';
 export * from './Teaser-simple';
 export * from './text-highlight';
+export * from './used-machine-info';
 export * from './used-machine-pattern';
 export * from './usp-list';
 export * from './video';

@@ -1,3 +1,3 @@
 export { Gallery } from './Gallery';
-export { type GalleryProps } from './gallery.interface';
+export { type GalleryProps, type GalleryImage } from './gallery.interface';
 //# sourceMappingURL=index.d.ts.map
