@@ -1,5 +1,5 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-import { CardEventProps } from '../card-event';
+import { CardEventProps } from './card-event';
 import { HeaderLongComponentProps } from '../header-long-component';
 
 export interface CardEventPatternProps extends HeaderLongComponentProps {
