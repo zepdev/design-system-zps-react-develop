@@ -9,7 +9,7 @@ export * from './card-media-component';
 export * from './card-media-pattern';
 export * from './card-square';
 export * from './card-square-list';
-export * from './card-event';
+export * from './card-event-pattern';
 export * from './contact-form';
 export * from './footer';
 export * from './header-long';

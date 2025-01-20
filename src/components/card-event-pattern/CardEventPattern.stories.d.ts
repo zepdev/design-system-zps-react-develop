@@ -1,5 +1,5 @@
 import { StoryObj } from '@storybook/react';
-import { CardEventPatternProps } from './card-square-pattern.interface';
+import { CardEventPatternProps } from './card-event-pattern.interface';
 
 declare const meta: {
     title: string;
