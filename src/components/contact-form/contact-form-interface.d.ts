@@ -2,7 +2,7 @@ import { LocaleVariants } from '../../interfaces/global-variants';
 import { LinkListItemProps } from '../link-list-item';
 
 export interface ContactFormProps {
-    onSubmit: (x: unknown) => void;
+    onSubmit: (data: unknown) => void;
     headline: string;
     tagline?: string;
     linkLists?: LinkListItemProps[];

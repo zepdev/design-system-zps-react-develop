@@ -1,7 +1,7 @@
 import { LocaleVariants } from '../../interfaces/global-variants';
 
 export interface LightboxContactFormProps {
-    onSubmit: () => void;
+    onSubmit: (data: unknown) => void;
     locale: LocaleVariants;
     isOpen: boolean;
     setIsOpen: (x: boolean) => void;
