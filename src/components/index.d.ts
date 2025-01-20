@@ -12,6 +12,7 @@ export * from './card-square';
 export * from './card-square-list';
 export * from './contact-form';
 export * from './footer';
+export * from './gallery';
 export * from './header-long';
 export * from './header-short';
 export * from './hero';
