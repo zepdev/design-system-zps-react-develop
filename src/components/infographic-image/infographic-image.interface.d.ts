@@ -12,5 +12,6 @@ export interface InfographicImageProps {
     imageAlt?: string;
     points: Point[];
     variant: GlobalVariants;
+    className?: string;
 }
 //# sourceMappingURL=infographic-image.interface.d.ts.map
