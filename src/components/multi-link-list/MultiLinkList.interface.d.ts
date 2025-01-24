@@ -6,5 +6,6 @@ export interface MultiLinkListProps extends HTMLAttributes<HTMLDivElement> {
     linkLists: LinkListItemProps[];
     headline?: string;
     variant?: GlobalVariants | GlobalVariantExtended;
+    isPatternPart?: boolean;
 }
 //# sourceMappingURL=MultiLinkList.interface.d.ts.map
