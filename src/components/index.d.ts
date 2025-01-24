@@ -18,6 +18,7 @@ export * from './header-short';
 export * from './hero';
 export * from './image-image';
 export * from './image-image-pattern';
+export * from './infographic-image-pattern';
 export * from './lead-text';
 export * from './lightbox-contact-form';
 export * from './link-list-item';
