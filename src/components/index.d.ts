@@ -11,6 +11,7 @@ export * from './card-media-pattern';
 export * from './card-square';
 export * from './card-square-list';
 export * from './contact-form';
+export * from './contact-section';
 export * from './footer';
 export * from './gallery';
 export * from './header-long';
