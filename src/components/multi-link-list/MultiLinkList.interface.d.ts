@@ -1,10 +1,10 @@
 import { HTMLAttributes } from 'react';
 import { LinkListItemProps } from '../link-list-item';
 import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
+import { HeaderShortProps } from '../header-short';
 
-export interface MultiLinkListProps extends HTMLAttributes<HTMLDivElement> {
+export interface MultiLinkListProps extends HTMLAttributes<HTMLDivElement>, HeaderShortProps {
     linkLists: LinkListItemProps[];
-    headline?: string;
     variant?: GlobalVariants | GlobalVariantExtended;
     isPatternPart?: boolean;
 }
