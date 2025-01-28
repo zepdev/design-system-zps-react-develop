@@ -1,4 +1,5 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
+import { HeaderLongProps } from '../header-long';
 
 export interface SingleVideo {
     title: string;
@@ -11,6 +12,7 @@ export interface SingleVideo {
 }
 export interface VideoProps {
     videos: SingleVideo[];
+    header: HeaderLongProps;
     variant?: GlobalVariants;
     className?: string;
 }
