@@ -10,4 +10,5 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
 export declare const HeroSimple: Story;
+export declare const HeroSimpleWithoutButtons: Story;
 //# sourceMappingURL=Hero.stories.d.ts.map
