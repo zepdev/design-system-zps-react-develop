@@ -7,6 +7,6 @@ export interface CardSquareProps extends HTMLAttributes<HTMLDivElement> {
     headline: string;
     description?: string;
     variant?: GlobalVariants;
-    cardListsLength?: number | undefined;
+    url: string;
 }
 //# sourceMappingURL=card-square.interface.d.ts.map
