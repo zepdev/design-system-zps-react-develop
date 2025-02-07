@@ -7,6 +7,11 @@ export interface RichTextProps extends Partial<RichTextBaseProps> {
     variant?: GlobalVariants | GlobalVariantExtended;
     className?: string;
 }
+export interface ImageProps {
+    url: string;
+    alt: string;
+    description: string;
+}
 export interface RichTextBaseProps {
     children: React.ReactNode;
     className?: string;
