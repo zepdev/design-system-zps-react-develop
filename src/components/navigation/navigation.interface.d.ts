@@ -29,6 +29,7 @@ export interface NavigationProps {
     navigationUtilityItems?: NavUtilityItem[];
     navigationItems: NavigationItem[];
     selectedLocale?: Locale;
+    setSelectedLocale?: (locale: Locale) => void;
     locales?: Locale[];
     logo: string;
 }
