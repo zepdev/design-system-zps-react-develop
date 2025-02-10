@@ -27,5 +27,7 @@ export interface TextHighlightProps extends Partial<Omit<HeaderLongProps, 'varia
     imageAlt: string;
     variant?: GlobalVariants;
     imageAlignment?: 'left' | 'right';
+    topDescription?: BlocksContent;
+    bottomDescription?: BlocksContent;
 }
 //# sourceMappingURL=TextHighlight.interface.d.ts.map
