@@ -39,6 +39,7 @@ export * from './rich-text-pattern';
 export * from './scrollbar';
 export * from './single-link-list';
 export * from './slider';
+export * from './table-pattern';
 export * from './text-highlight';
 export * from './used-machine-info';
 export * from './used-machine-pattern';
