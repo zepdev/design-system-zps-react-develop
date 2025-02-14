@@ -8,5 +8,6 @@ export interface LinkListItemProps {
     variant?: GlobalVariants | GlobalVariantExtended;
     isMultiListItem?: boolean;
     className?: string;
+    isFooterList?: boolean;
 }
 //# sourceMappingURL=LinkListItem.interface.d.ts.map
