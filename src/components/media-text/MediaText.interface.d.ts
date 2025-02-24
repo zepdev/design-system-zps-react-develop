@@ -1,6 +1,6 @@
+import { BlocksContent } from '@strapi/blocks-react-renderer';
 import { ReactNode } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
-import { BlocksContent } from '@strapi/blocks-react-renderer';
 
 export interface MediaTextContentProps extends MediaTextImageProps, MediaTextButtonProps {
     headline?: string;
@@ -21,5 +21,7 @@ export interface MediaTextButtonProps {
     labelSecondary?: string;
     onClickPrimary?: () => void;
     onClickSecondary?: () => void;
+    urlPrimary?: string;
+    urlSecondary?: string;
 }
 //# sourceMappingURL=MediaText.interface.d.ts.map
