@@ -1,6 +1,6 @@
+import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
 import { MouseEvent } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
-import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
 
 export interface HeroProps extends HeroImageProps {
     variant?: GlobalVariants;
@@ -13,6 +13,7 @@ export interface HeroProps extends HeroImageProps {
     buttonSecondaryIcon?: FunctionalIconNames;
     buttonPrimaryIconPosition?: 'left' | 'right';
     buttonSecondaryIconPosition?: 'left' | 'right';
+    isErrorPage?: boolean;
 }
 export interface HeroImageProps {
     imageSrc?: string;
