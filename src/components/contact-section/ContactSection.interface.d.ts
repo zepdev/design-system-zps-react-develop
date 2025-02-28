@@ -5,5 +5,6 @@ export interface ContactSectionProps {
     variant?: GlobalVariants;
     linkLists: LinkListItemProps[];
     headline: string;
+    id?: string;
 }
 //# sourceMappingURL=ContactSection.interface.d.ts.map

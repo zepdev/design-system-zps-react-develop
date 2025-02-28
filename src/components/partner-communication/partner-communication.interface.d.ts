@@ -7,5 +7,6 @@ export interface PartnerCommunicationProps {
         imageAlt: string;
     }[];
     variant?: GlobalVariants;
+    id?: string;
 }
 //# sourceMappingURL=partner-communication.interface.d.ts.map

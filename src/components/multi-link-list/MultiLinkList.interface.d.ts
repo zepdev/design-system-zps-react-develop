@@ -8,5 +8,6 @@ export interface MultiLinkListProps extends Partial<Omit<HeaderLongComponentProp
     isPatternPart?: boolean;
     linkListItemClassname?: string;
     isFooterList?: boolean;
+    id?: string;
 }
 //# sourceMappingURL=MultiLinkList.interface.d.ts.map

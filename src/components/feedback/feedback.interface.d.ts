@@ -7,5 +7,6 @@ export interface FeedbackProps {
     variant: GlobalVariants;
     onLikeClick?: () => void;
     onDislikeClick?: () => void;
+    id?: string;
 }
 //# sourceMappingURL=feedback.interface.d.ts.map

@@ -30,5 +30,6 @@ export interface AccordionPatternProps extends Partial<Omit<HeaderLongProps, 'va
     buttonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
     buttonVariant?: ZpsButtonVariant;
     buttonIcon?: FunctionalIconNames;
+    id?: string;
 }
 //# sourceMappingURL=accordion.interface.d.ts.map

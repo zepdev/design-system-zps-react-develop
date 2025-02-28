@@ -13,5 +13,6 @@ export interface VideoProps {
     videos: SingleVideo[];
     variant?: GlobalVariants;
     className?: string;
+    id?: string;
 }
 //# sourceMappingURL=video.interface.d.ts.map

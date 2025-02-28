@@ -7,5 +7,6 @@ export interface CardMediaPatternProps extends Omit<HeaderLongProps, 'textColor'
     className?: string;
     variant?: GlobalVariants;
     imageOrientation?: 'horizontal' | 'vertical';
+    id?: string;
 }
 //# sourceMappingURL=CardMediaPattern.interface.d.ts.map

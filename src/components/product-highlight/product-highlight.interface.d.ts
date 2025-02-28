@@ -14,5 +14,6 @@ export interface ProductHighLightProps extends Partial<Omit<HeaderLongProps, 'va
     buttonVariant?: ZpsButtonVariant;
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
     variant?: GlobalVariants;
+    id?: string;
 }
 //# sourceMappingURL=product-highlight.interface.d.ts.map

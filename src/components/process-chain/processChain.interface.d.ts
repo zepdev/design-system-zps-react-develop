@@ -8,5 +8,6 @@ export interface ProcessChainItem {
 export interface ProcessChainProps extends Partial<Omit<HeaderLongProps, 'variant'>> {
     contentItems: ProcessChainItem[];
     variant?: GlobalVariants;
+    id?: string;
 }
 //# sourceMappingURL=processChain.interface.d.ts.map

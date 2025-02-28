@@ -4,5 +4,6 @@ import { HeaderShortProps } from '../header-short';
 
 export interface RichTextPatternProps extends Omit<RichTextProps, 'variant'>, Partial<Omit<HeaderShortProps, 'variant'>> {
     variant?: GlobalVariants;
+    id?: string;
 }
 //# sourceMappingURL=RichTextPattern.interface.d.ts.map
