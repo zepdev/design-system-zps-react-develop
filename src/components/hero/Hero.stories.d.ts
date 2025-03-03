@@ -2,7 +2,7 @@ import { StoryObj } from '@storybook/react';
 
 declare const meta: {
     title: string;
-    component: ({ variant, headline, buttonSecondary, buttonPrimary, buttonPrimaryOnClick, buttonSecondaryOnClick, imageAlt, imageSrc, buttonPrimaryIcon, buttonSecondaryIcon, buttonPrimaryIconPosition, buttonSecondaryIconPosition, isErrorPage, }: import('./hero.interface').HeroProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ variant, headline, buttonSecondary, buttonPrimary, buttonPrimaryOnClick, buttonSecondaryOnClick, imageAlt, imageSrc, buttonPrimaryIcon, buttonSecondaryIcon, buttonPrimaryIconPosition, buttonSecondaryIconPosition, isErrorPage, buttonPrimaryUrl, buttonSecondaryUrl, }: import('./hero.interface').HeroProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };

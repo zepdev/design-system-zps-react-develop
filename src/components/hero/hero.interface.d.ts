@@ -14,6 +14,8 @@ export interface HeroProps extends HeroImageProps {
     buttonPrimaryIconPosition?: 'left' | 'right';
     buttonSecondaryIconPosition?: 'left' | 'right';
     isErrorPage?: boolean;
+    buttonPrimaryUrl?: string;
+    buttonSecondaryUrl?: string;
 }
 export interface HeroImageProps {
     imageSrc?: string;
