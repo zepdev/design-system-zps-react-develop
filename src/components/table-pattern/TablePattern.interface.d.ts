@@ -15,5 +15,6 @@ export interface TablePatternProps extends Omit<HeaderLongComponentProps, 'varia
     tableButtonIcon?: FunctionalIconNames;
     tableButtonIconPosition?: 'left' | 'right';
     variant?: GlobalVariants;
+    id?: string;
 }
 //# sourceMappingURL=TablePattern.interface.d.ts.map
