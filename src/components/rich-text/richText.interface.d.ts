@@ -1,10 +1,12 @@
-import { default as React } from 'react';
 import { BlocksContent } from '@strapi/blocks-react-renderer';
+import { default as React } from 'react';
 import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
 
 export interface RichTextProps extends Partial<RichTextBaseProps> {
     content: BlocksContent;
     variant?: GlobalVariants | GlobalVariantExtended;
+    appStoreUrl?: string;
+    googlePlayUrl?: string;
     className?: string;
 }
 export interface ImageProps {

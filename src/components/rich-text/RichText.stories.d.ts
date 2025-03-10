@@ -3,7 +3,7 @@ import { RichTextProps } from './richText.interface';
 
 declare const meta: {
     title: string;
-    component: ({ content, children, variant, className }: RichTextProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ content, children, variant, appStoreUrl, googlePlayUrl, className, }: RichTextProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
     argTypes: {};
 };
