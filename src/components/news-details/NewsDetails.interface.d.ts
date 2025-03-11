@@ -1,11 +1,13 @@
 import { BlocksContent } from '@strapi/blocks-react-renderer';
-import { HeaderLongProps } from '../header-long';
 import { GlobalVariants } from '../../interfaces/global-variants';
 
-export interface NewsDetailsProps extends Partial<Omit<HeaderLongProps, 'variant'>> {
+export interface NewsDetailsProps {
+    date?: string;
+    location?: string;
+    description?: BlocksContent;
     imageSrc: string;
     imageAlt: string;
-    imageDescription: string;
+    imageDescription?: string;
     content: BlocksContent;
     variant?: GlobalVariants;
 }
