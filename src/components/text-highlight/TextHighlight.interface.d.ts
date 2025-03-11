@@ -1,9 +1,9 @@
-import { MouseEvent, ReactElement } from 'react';
-import { TableColumn } from '@zepdev/design-system-component-library-react';
 import { BlocksContent } from '@strapi/blocks-react-renderer';
+import { TableColumn } from '@zepdev/design-system-component-library-react';
+import { MouseEvent, ReactElement } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
-import { HeaderLongProps } from '../header-long';
 import { AccordionContent } from '../accrodion-pattern';
+import { HeaderLongProps } from '../header-long';
 
 export interface AccordionProps {
     contents: AccordionContent[];
@@ -20,6 +20,7 @@ export interface THContext {
     buttonText: string;
     message: string;
     variant: GlobalVariants;
+    buttonUrl?: string;
 }
 export interface TextHighlightProps extends Partial<Omit<HeaderLongProps, 'variant'>>, Omit<THContext, 'variant'> {
     children: ReactElement<AccordionProps> | ReactElement<TableProps> | ReactElement<RichTextProps>;
