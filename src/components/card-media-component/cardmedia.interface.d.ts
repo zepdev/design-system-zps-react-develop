@@ -8,6 +8,7 @@ export interface CardMediaProps {
     description: string;
     linkText: string;
     linkSrc: string;
+    linkType?: 'internal-link' | 'external-link' | 'download';
     variant?: GlobalVariants;
     className?: string;
 }
