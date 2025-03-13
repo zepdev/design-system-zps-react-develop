@@ -18,6 +18,7 @@ export interface AccordionContent {
     buttonText?: string;
     buttonVariant?: ZpsButtonVariant;
     buttonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
+    buttonUrl?: string;
     buttonIcon?: FunctionalIconNames;
 }
 export interface AccordionPatternProps extends Partial<Omit<HeaderLongProps, 'variant'>> {
@@ -28,6 +29,7 @@ export interface AccordionPatternProps extends Partial<Omit<HeaderLongProps, 'va
     headerPosition?: 'top' | 'left';
     buttonText?: string;
     buttonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
+    buttonUrl?: string;
     buttonVariant?: ZpsButtonVariant;
     buttonIcon?: FunctionalIconNames;
     id?: string;

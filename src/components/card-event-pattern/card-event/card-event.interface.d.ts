@@ -8,7 +8,7 @@ export interface CardEventProps {
     date?: string;
     location?: string;
     linkLabel?: string;
-    linkSrc?: string;
+    linkSrc: string;
     variant?: GlobalVariants;
     className?: string;
 }

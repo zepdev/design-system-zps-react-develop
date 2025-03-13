@@ -14,6 +14,7 @@ export interface TablePatternProps extends Omit<HeaderLongComponentProps, 'varia
     tableButtonVariant?: ZpsButtonVariant;
     tableButtonIcon?: FunctionalIconNames;
     tableButtonIconPosition?: 'left' | 'right';
+    tableButtonUrl?: string;
     variant?: GlobalVariants;
     id?: string;
 }
