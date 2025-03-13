@@ -1,9 +1,10 @@
 import { BlocksContent } from '@strapi/blocks-react-renderer';
-import { TableColumn } from '@zepdev/design-system-component-library-react';
+import { FunctionalIconNames, TableColumn } from '@zepdev/design-system-component-library-react';
 import { MouseEvent, ReactElement } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { AccordionContent } from '../accrodion-pattern';
 import { HeaderLongProps } from '../header-long';
+import { ZpsButtonVariant } from '../zps-button';
 
 export interface AccordionProps {
     contents: AccordionContent[];
@@ -16,11 +17,15 @@ export interface RichTextProps {
     content: BlocksContent;
 }
 export interface THContext {
-    buttonOnClick: (ev: MouseEvent<HTMLElement>) => void;
-    buttonText: string;
+    buttonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
+    buttonText?: string;
     message: string;
     variant: GlobalVariants;
     buttonUrl?: string;
+    buttonVariant?: ZpsButtonVariant | 'link';
+    buttonType?: 'download' | 'default';
+    buttonIcon?: FunctionalIconNames;
+    buttonIconPosition?: 'left' | 'right';
 }
 export interface TextHighlightProps extends Partial<Omit<HeaderLongProps, 'variant'>>, Omit<THContext, 'variant'> {
     children: ReactElement<AccordionProps> | ReactElement<TableProps> | ReactElement<RichTextProps>;

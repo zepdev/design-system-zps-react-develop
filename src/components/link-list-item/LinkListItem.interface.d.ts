@@ -9,5 +9,6 @@ export interface LinkListItemProps {
     isMultiListItem?: boolean;
     className?: string;
     isFooterList?: boolean;
+    type?: 'default' | 'download';
 }
 //# sourceMappingURL=LinkListItem.interface.d.ts.map

@@ -16,6 +16,8 @@ export interface ZpsButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> 
     iconPosition?: 'left' | 'right';
     isLoading?: boolean;
     children?: ReactNode;
+    href?: string;
+    buttonType?: 'default' | 'download';
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
 }
 //# sourceMappingURL=zps-button.interface.d.ts.map

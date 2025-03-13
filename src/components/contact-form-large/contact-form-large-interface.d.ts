@@ -6,5 +6,7 @@ export interface ContactFormLargeProps {
     tagline?: string;
     locale: LocaleVariants;
     loading?: boolean;
+    privacyPolicyUrl: string;
+    preferencesUrl: string;
 }
 //# sourceMappingURL=contact-form-large-interface.d.ts.map
