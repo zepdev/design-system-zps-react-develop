@@ -8,5 +8,6 @@ export interface ContactFormProps {
     linkLists?: LinkListItemProps[];
     locale: LocaleVariants;
     loading?: boolean;
+    privacyPolicyUrl: string;
 }
 //# sourceMappingURL=contact-form-interface.d.ts.map
