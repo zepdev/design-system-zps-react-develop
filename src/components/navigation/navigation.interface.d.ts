@@ -21,6 +21,8 @@ export interface SidebarProps {
     setInitialPath: (x: string[]) => void;
     selectedLocale?: Locale;
     locales?: Locale[];
+    header?: string;
+    labelBack: string;
     setSelectedLocale?: (x: Locale) => void;
     navigationUtilityItems?: NavUtilityItem[];
 }
@@ -32,12 +34,20 @@ export interface NavigationProps {
     setSelectedLocale?: (locale: Locale) => void;
     locales?: Locale[];
     logo: string;
+    header: string;
+    labelBack: string;
 }
 export interface LanguageSwitcherProps {
+    header: string;
+    labelBack: string;
     setLocaleSwitcherMenu?: (x: boolean) => void;
     selectedLocale?: Locale;
     setLanguageSwitcher?: (x: boolean) => void;
     locales?: Locale[];
     setSelectedLocale?: (x: Locale) => void;
+}
+export interface NavigationMenuProps {
+    items: NavigationItem[];
+    children?: React.ReactNode;
 }
 //# sourceMappingURL=navigation.interface.d.ts.map
