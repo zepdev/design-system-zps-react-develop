@@ -1,6 +1,7 @@
 import { BlocksContent } from '@strapi/blocks-react-renderer';
 import { ReactNode } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
+import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
 
 export interface MediaTextContentProps extends MediaTextImageProps, MediaTextButtonProps {
     headline?: string;
@@ -23,5 +24,9 @@ export interface MediaTextButtonProps {
     onClickSecondary?: () => void;
     urlPrimary?: string;
     urlSecondary?: string;
+    iconPrimary?: FunctionalIconNames;
+    iconSecondary?: FunctionalIconNames;
+    iconPrimaryPosition?: 'left' | 'right';
+    iconSecondaryPosition?: 'left' | 'right';
 }
 //# sourceMappingURL=MediaText.interface.d.ts.map

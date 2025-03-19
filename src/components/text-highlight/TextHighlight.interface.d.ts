@@ -12,6 +12,7 @@ export interface AccordionProps {
 export interface TableProps {
     columns: TableColumn<object>[];
     dataSource: object[];
+    tableMessage?: string;
 }
 export interface RichTextProps {
     content: BlocksContent;

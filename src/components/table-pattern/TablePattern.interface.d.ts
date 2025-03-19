@@ -9,6 +9,7 @@ export interface TablePatternProps extends Omit<HeaderLongComponentProps, 'varia
     columns: TableColumn<object>[];
     dataSource: object[];
     content?: BlocksContent;
+    message?: string;
     tableButtonLabel?: string;
     tableButtonOnClick?: (ev: MouseEvent<HTMLElement>) => void;
     tableButtonVariant?: ZpsButtonVariant;
