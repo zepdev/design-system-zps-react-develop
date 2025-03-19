@@ -6,6 +6,7 @@ export interface Locale {
     label: string;
     value: string;
     country: string;
+    langAbbrev: string;
 }
 export interface NavigationItem {
     navId: string;
