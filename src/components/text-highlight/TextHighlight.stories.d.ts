@@ -14,6 +14,7 @@ declare const meta: {
 type Story = StoryObj<typeof meta>;
 export default meta;
 export declare const TextHighlightRichText: Story;
+export declare const imageAlignmentRight: Story;
 export declare const TextHighlightTable: Story;
 export declare const TextHighlightAccordion: Story;
 //# sourceMappingURL=TextHighlight.stories.d.ts.map
