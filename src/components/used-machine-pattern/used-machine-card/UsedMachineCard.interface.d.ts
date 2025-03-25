@@ -22,6 +22,7 @@ export declare enum MachineGenSetType {
 export interface UsedMachineCardProps extends UsedMachineDescriptionProps {
     imageSrc: string;
     type?: MachineGenSetType;
+    url: string;
 }
 export interface IUsedMachine {
     availability?: string;
@@ -47,6 +48,7 @@ export interface IUsedMachine {
     voltage?: string;
     weight?: string;
     year: number;
+    brand: string;
 }
 export interface UsedMachineDescriptionProps extends IUsedMachine {
     boldLabel?: boolean;
