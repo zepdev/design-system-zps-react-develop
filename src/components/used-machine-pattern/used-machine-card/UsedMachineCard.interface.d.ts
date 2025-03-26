@@ -13,7 +13,7 @@ export declare enum MachineCategory {
 export declare enum MachineFuel {
     DIESEL = "diesel",
     GAS = "gas",
-    DUAL_FUEL = "dual fuel"
+    DUAL_FUEL = "dual_fuel"
 }
 export declare enum MachineGenSetType {
     STATIONARY = "stationary",
