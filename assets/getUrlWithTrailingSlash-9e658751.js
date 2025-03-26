@@ -1,0 +1,1 @@
+const e=t=>!t||t.endsWith("/")||[".pdf",".jpg",".jpeg",".png",".gif",".doc",".docx",".xls",".xlsx",".txt",".html",".htm",".mp4",".mp3",".zip",".rar",".csv"].some(n=>t.endsWith(n))?t:`${t}/`;export{e as g};
