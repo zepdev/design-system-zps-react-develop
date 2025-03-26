@@ -8,5 +8,7 @@ export interface CardSquareProps extends HTMLAttributes<HTMLDivElement> {
     description?: string;
     variant?: GlobalVariants;
     url: string;
+    gtmHeadline?: string;
+    gtmId?: string;
 }
 //# sourceMappingURL=card-square.interface.d.ts.map
