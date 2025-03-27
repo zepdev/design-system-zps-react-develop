@@ -9,6 +9,8 @@ export interface SingleVideo {
     thumbnail: string;
     linkHref?: string;
     linkText?: string;
+    cookiesResetLabel?: string;
+    cookiesLayerDescription?: string;
 }
 export interface VideoProps {
     videos: SingleVideo[];
