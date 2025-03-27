@@ -1,0 +1,1 @@
+const i=t=>!t||t.endsWith("/")||t.startsWith("https://")||[".pdf",".jpg",".jpeg",".png",".gif",".doc",".docx",".xls",".xlsx",".txt",".html",".htm",".mp4",".mp3",".zip",".rar",".csv"].some(s=>t.endsWith(s))?t:`${t}/`;export{i as g};

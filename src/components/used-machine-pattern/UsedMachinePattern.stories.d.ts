@@ -14,6 +14,7 @@ declare const meta: {
         total: number;
         currentTotal: number;
         setCurrentTotal: import('react').Dispatch<import('react').SetStateAction<number>>;
+        onContactExpertsClick: (ev: import('react').MouseEvent<HTMLElement, MouseEvent>) => void;
         setFilters: import('react').Dispatch<import('react').SetStateAction<UsedMachineFiltersType>>;
         locale: LocaleVariants;
         filters: UsedMachineFiltersType;
