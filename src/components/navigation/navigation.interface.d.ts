@@ -35,8 +35,7 @@ export interface NavigationProps {
     setSelectedLocale?: (locale: Locale) => void;
     locales?: Locale[];
     logo: string;
-    header: string;
-    labelBack: string;
+    currentUrl?: string;
 }
 export interface LanguageSwitcherProps {
     header: string;
