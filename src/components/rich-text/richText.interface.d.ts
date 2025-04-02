@@ -12,7 +12,7 @@ export interface RichTextProps extends Partial<RichTextBaseProps> {
 export interface ImageProps {
     url: string;
     alt: string;
-    description: string;
+    description?: string | null;
 }
 export interface RichTextBaseProps {
     children: React.ReactNode;
