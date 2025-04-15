@@ -1,5 +1,5 @@
-import { ZpsButtonProps, ZpsButtonVariant } from './zps-button.interface';
 import { FC } from 'react';
+import { ZpsButtonProps, ZpsButtonVariant } from './zps-button.interface';
 
 export declare const zpsButtonVariants: {
     primary: string[];
