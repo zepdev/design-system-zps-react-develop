@@ -713,16 +713,16 @@
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
         },
         {
           "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
+          "moduleName": "./src/components/card-square/CardSquare.tsx"
         },
         {
-          "moduleName": "./src/components/card-square/CardSquare.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/contact-section/ContactSection.tsx"
@@ -776,16 +776,16 @@
           "moduleName": "./src/components/news-details/NewsDetails.tsx"
         },
         {
-          "moduleName": "./src/components/process-chain/ProcessChain.tsx"
-        },
-        {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
-        },
-        {
           "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
         },
         {
+          "moduleName": "./src/components/process-chain/ProcessChain.tsx"
+        },
+        {
           "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
         },
         {
           "moduleName": "./src/components/rich-text/RichText.tsx"
@@ -818,10 +818,10 @@
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.tsx"
         },
         {
-          "moduleName": "./src/components/infographic-image/PointCard.tsx"
+          "moduleName": "./src/components/infographic-image/InfoPoint.tsx"
         },
         {
-          "moduleName": "./src/components/infographic-image/InfoPoint.tsx"
+          "moduleName": "./src/components/infographic-image/PointCard.tsx"
         },
         {
           "moduleName": "./src/components/video/Video.tsx"
@@ -1234,6 +1234,15 @@
       ]
     },
     {
+      "id": "./src/components/partner-communication/PartnerCommunication.tsx",
+      "name": "./src/components/partner-communication/PartnerCommunication.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/process-chain/ProcessChain.tsx",
       "name": "./src/components/process-chain/ProcessChain.tsx",
       "reasons": [
@@ -1309,32 +1318,11 @@
       ]
     },
     {
-      "id": "./src/components/partner-communication/PartnerCommunication.tsx",
-      "name": "./src/components/partner-communication/PartnerCommunication.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/partner-communication/PartnerCommunication.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/rich-text-pattern/RichTextPattern.tsx",
       "name": "./src/components/rich-text-pattern/RichTextPattern.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/rich-text-pattern/RichTextPattern.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/single-link-list/SingleLinkList.tsx",
-      "name": "./src/components/single-link-list/SingleLinkList.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/single-link-list/index.ts"
         }
       ]
     },
@@ -1347,6 +1335,18 @@
         },
         {
           "moduleName": "./src/components/slider/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/single-link-list/SingleLinkList.tsx",
+      "name": "./src/components/single-link-list/SingleLinkList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/single-link-list/SingleLinkList.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/single-link-list/index.ts"
         }
       ]
     },
@@ -1447,41 +1447,29 @@
       ]
     },
     {
+      "id": "./src/components/card-media-pattern/CardMediaPattern.tsx",
+      "name": "./src/components/card-media-pattern/CardMediaPattern.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/tailwind/styles/focus.ts",
       "name": "./src/tailwind/styles/focus.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.stories.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.stories.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
         },
         {
           "moduleName": "./src/components/form-fields/checkbox/Checkbox.tsx"
         },
         {
           "moduleName": "./src/components/form-fields/input/Input.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-media-component/CardMedia.tsx",
-      "name": "./src/components/card-media-component/CardMedia.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/card-media-component/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-media-pattern/CardMediaPattern.tsx",
-      "name": "./src/components/card-media-pattern/CardMediaPattern.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.stories.tsx"
         }
       ]
     },
@@ -1498,14 +1486,14 @@
       ]
     },
     {
-      "id": "./src/components/layout/Layout.tsx",
-      "name": "./src/components/layout/Layout.tsx",
+      "id": "./src/components/card-media-component/CardMedia.tsx",
+      "name": "./src/components/card-media-component/CardMedia.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/layout/Layout.stories.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.stories.tsx"
         },
         {
-          "moduleName": "./src/components/layout/index.ts"
+          "moduleName": "./src/components/card-media-component/index.ts"
         }
       ]
     },
@@ -1518,6 +1506,18 @@
         },
         {
           "moduleName": "./src/components/infographic-image/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/layout/Layout.tsx",
+      "name": "./src/components/layout/Layout.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/layout/Layout.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/layout/index.ts"
         }
       ]
     },
@@ -1539,18 +1539,6 @@
         },
         {
           "moduleName": "./src/components/modal-component/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/rich-text/RichText.tsx",
-      "name": "./src/components/rich-text/RichText.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/rich-text/RichText.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/rich-text/index.ts"
         }
       ]
     },
@@ -1628,16 +1616,16 @@
           "moduleName": "./src/components/news-details/NewsDetails.tsx"
         },
         {
-          "moduleName": "./src/components/process-chain/ProcessChain.tsx"
-        },
-        {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
-        },
-        {
           "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
         },
         {
+          "moduleName": "./src/components/process-chain/ProcessChain.tsx"
+        },
+        {
           "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
         },
         {
           "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
@@ -1659,6 +1647,18 @@
         },
         {
           "moduleName": "./src/components/video/Video.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/rich-text/RichText.tsx",
+      "name": "./src/components/rich-text/RichText.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/rich-text/RichText.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/rich-text/index.ts"
         }
       ]
     },
@@ -1748,13 +1748,13 @@
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
-        },
-        {
           "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
         },
         {
           "moduleName": "./src/components/card-square/CardSquare.tsx"
+        },
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/header-long/HeaderLong.tsx"
@@ -1865,10 +1865,10 @@
           "moduleName": "./src/components/news-details/NewsDetails.tsx"
         },
         {
-          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
+          "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
         },
         {
-          "moduleName": "./src/components/rich-text-pattern/RichTextPattern.tsx"
+          "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
         },
         {
           "moduleName": "./src/components/table-pattern/TablePattern.tsx"
@@ -1891,17 +1891,26 @@
       ]
     },
     {
+      "id": "./src/components/card-media-component/index.ts",
+      "name": "./src/components/card-media-component/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/utils/getUrlWithTrailingSlash.ts",
       "name": "./src/utils/getUrlWithTrailingSlash.ts",
       "reasons": [
-        {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
-        },
         {
           "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
         },
         {
           "moduleName": "./src/components/card-square/CardSquare.tsx"
+        },
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/footer/Footer.tsx"
@@ -1926,15 +1935,6 @@
         },
         {
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-media-component/index.ts",
-      "name": "./src/components/card-media-component/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
         }
       ]
     },
@@ -2311,21 +2311,6 @@
       ]
     },
     {
-      "id": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
-      "name": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/index.ts"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.tsx"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-locales.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/used-machine-pattern/used-machine-locales.ts",
       "name": "./src/components/used-machine-pattern/used-machine-locales.ts",
       "reasons": [
@@ -2340,6 +2325,21 @@
         },
         {
           "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
+      "name": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/index.ts"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.tsx"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-locales.ts"
         }
       ]
     },
