@@ -1,5 +1,5 @@
 import { BlocksContent } from '@strapi/blocks-react-renderer';
-import { LinkProps } from '@zepdev/design-system-component-library-react';
+import { LinkProps } from '@zepdev/design-system-component-library-react/dist/src/components/link';
 import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
 
 export interface LinkListLink extends LinkProps {
