@@ -12,12 +12,6 @@ declare const meta: {
                 options: string[];
             };
         };
-        iconName: {
-            control: {
-                type: string;
-                options: string[];
-            };
-        };
     };
 };
 export default meta;
