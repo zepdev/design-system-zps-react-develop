@@ -9,6 +9,8 @@ export * from './breadcrumb';
 export * from './card-event-pattern';
 export * from './card-media-component';
 export * from './card-media-pattern';
+export * from './media-text-small';
+export * from './media-text-small-pattern';
 export * from './card-square';
 export * from './card-square-list';
 export * from './contact-form';
