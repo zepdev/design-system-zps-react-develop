@@ -14,6 +14,7 @@ export * from './media-text-small-pattern';
 export * from './card-square';
 export * from './card-square-list';
 export * from './contact-form';
+export * from './contact-form-events';
 export * from './contact-form-large';
 export * from './contact-section';
 export * from './feedback';

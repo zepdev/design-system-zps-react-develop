@@ -10,5 +10,6 @@ export interface LightboxContactFormProps {
     contactArea?: string;
     contactList?: LinkListItemProps[];
     privacyPolicyUrl: string;
+    type?: 'default' | 'fair-events';
 }
 //# sourceMappingURL=lightbox-contact-form.interface.d.ts.map
