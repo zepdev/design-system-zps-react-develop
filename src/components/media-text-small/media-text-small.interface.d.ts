@@ -1,11 +1,11 @@
 import { BlocksContent } from '@strapi/blocks-react-renderer';
-import { GlobalVariants } from 'lib';
+import { GlobalVariantExtended } from '../../interfaces/global-variants';
 
 export interface MediaTextSmallProps {
     headline: string;
     description?: BlocksContent;
     imageSrc: string;
     imageAlt?: string;
-    variant?: GlobalVariants;
+    variant?: GlobalVariantExtended;
 }
 //# sourceMappingURL=media-text-small.interface.d.ts.map

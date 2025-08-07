@@ -1,4 +1,5 @@
 import { StoryObj } from '@storybook/react';
+import { GlobalVariants } from '../../interfaces/global-variants';
 import { MediaTextSmallPatternProps } from './media-text-small-pattern.interface';
 
 declare const meta: {
@@ -9,7 +10,7 @@ declare const meta: {
         variant: {
             control: {
                 type: string;
-                options: string[];
+                options: GlobalVariants[];
             };
         };
     };
