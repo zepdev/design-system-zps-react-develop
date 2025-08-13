@@ -1,3 +1,3 @@
 export * from './MapCard';
-export type { MapCardProps } from './MapCard.interface';
+export type { MapCardProps, Poi } from './MapCard.interface';
 //# sourceMappingURL=index.d.ts.map

@@ -29,6 +29,7 @@ export * from './infographic-image-pattern';
 export * from './lead-text';
 export * from './lightbox-contact-form';
 export * from './link-list-item';
+export * from './map-card';
 export * from './media-text';
 export * from './media-text-pattern';
 export * from './modal-component';
