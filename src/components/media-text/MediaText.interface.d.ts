@@ -6,7 +6,7 @@ import { FunctionalIconNames } from '@zepdev/design-system-component-library-rea
 export interface MediaTextContentProps extends MediaTextImageProps, MediaTextButtonProps {
     headline?: string;
     tagline?: string;
-    content: BlocksContent;
+    content?: BlocksContent;
     variant?: GlobalVariants;
     imageAlignment?: 'left' | 'right';
 }

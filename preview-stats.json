@@ -616,6 +616,15 @@
       ]
     },
     {
+      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/interfaces/global-variants.ts",
       "name": "./src/interfaces/global-variants.ts",
       "reasons": [
@@ -626,10 +635,10 @@
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.stories.tsx"
         },
         {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.stories.tsx"
+          "moduleName": "./src/components/anchor-navigation-card/AnchorNavigationCard.stories.tsx"
         },
         {
-          "moduleName": "./src/components/anchor-navigation-card/AnchorNavigationCard.stories.tsx"
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.stories.tsx"
         },
         {
           "moduleName": "./src/components/card-event-pattern/CardEventPattern.stories.tsx"
@@ -707,22 +716,19 @@
           "moduleName": "./src/components/lightbox-contact-form/LightboxContactForm.stories.tsx"
         },
         {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.stories.tsx"
+          "moduleName": "./src/components/used-machine-pattern/UsedMachinePattern.stories.tsx"
         },
         {
-          "moduleName": "./src/components/used-machine-pattern/UsedMachinePattern.stories.tsx"
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.stories.tsx"
         },
         {
           "moduleName": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.stories.tsx"
         },
         {
-          "moduleName": "./src/components/USP/Usp.tsx"
-        },
-        {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
-        },
-        {
           "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
+        },
+        {
+          "moduleName": "./src/components/USP/Usp.tsx"
         },
         {
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
@@ -731,10 +737,13 @@
           "moduleName": "./src/components/anchor-navigation-card/AnchorNavigationCard.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
           "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
+        },
+        {
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
@@ -761,10 +770,10 @@
           "moduleName": "./src/components/header-short/HeaderShort.tsx"
         },
         {
-          "moduleName": "./src/components/hero/Hero.tsx"
+          "moduleName": "./src/components/image-image-pattern/ImageImagePattern.tsx"
         },
         {
-          "moduleName": "./src/components/image-image-pattern/ImageImagePattern.tsx"
+          "moduleName": "./src/components/hero/Hero.tsx"
         },
         {
           "moduleName": "./src/components/infographic-image-pattern/InfographicImagePattern.tsx"
@@ -779,13 +788,13 @@
           "moduleName": "./src/components/link-list-item/LinkListItem.tsx"
         },
         {
-          "moduleName": "./src/components/map-card/MapCard.tsx"
-        },
-        {
           "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
         },
         {
           "moduleName": "./src/components/media-text-small-pattern/MediaTextSmallPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/map-card/MapCard.tsx"
         },
         {
           "moduleName": "./src/components/media-text-small/MediaTextSmall.tsx"
@@ -794,16 +803,16 @@
           "moduleName": "./src/components/media-text/MediaText.tsx"
         },
         {
-          "moduleName": "./src/components/navigation/Navigation.tsx"
-        },
-        {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
         },
         {
-          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
+          "moduleName": "./src/components/news-details/NewsDetails.tsx"
         },
         {
-          "moduleName": "./src/components/news-details/NewsDetails.tsx"
+          "moduleName": "./src/components/navigation/Navigation.tsx"
+        },
+        {
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
         },
         {
           "moduleName": "./src/components/process-chain/ProcessChain.tsx"
@@ -821,22 +830,22 @@
           "moduleName": "./src/components/table-pattern/TablePattern.tsx"
         },
         {
-          "moduleName": "./src/components/used-machine-info/UsedMachineInfo.tsx"
-        },
-        {
           "moduleName": "./src/components/text-highlight/TextHighlight.tsx"
         },
         {
-          "moduleName": "./src/utils/commonCSS.ts"
+          "moduleName": "./src/components/used-machine-info/UsedMachineInfo.tsx"
         },
         {
           "moduleName": "./src/components/usp-list/UspList.tsx"
         },
         {
-          "moduleName": "./src/components/contact-form/contact-form-locales.ts"
+          "moduleName": "./src/utils/commonCSS.ts"
         },
         {
           "moduleName": "./src/components/gallery/Gallery.tsx"
+        },
+        {
+          "moduleName": "./src/components/contact-form/contact-form-locales.ts"
         },
         {
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.tsx"
@@ -871,29 +880,11 @@
       ]
     },
     {
-      "id": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "name": "./src/components/Teaser-simple/Teaser-simple.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/Teaser-simple/Teaser-simple.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/accrodion-pattern/AccordionPattern.tsx",
       "name": "./src/components/accrodion-pattern/AccordionPattern.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx",
-      "name": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.stories.tsx"
         }
       ]
     },
@@ -906,6 +897,15 @@
         },
         {
           "moduleName": "./src/components/anchor-navigation-card/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx",
+      "name": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.stories.tsx"
         }
       ]
     },
@@ -949,6 +949,15 @@
       ]
     },
     {
+      "id": "./src/components/contact-form-large/ContactFormLarge.tsx",
+      "name": "./src/components/contact-form-large/ContactFormLarge.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/contact-form-large/ContactFormLarge.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/contact-form-events/ContactFormEvents.tsx",
       "name": "./src/components/contact-form-events/ContactFormEvents.tsx",
       "reasons": [
@@ -957,15 +966,6 @@
         },
         {
           "moduleName": "./src/components/contact-form-events/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/contact-form-large/ContactFormLarge.tsx",
-      "name": "./src/components/contact-form-large/ContactFormLarge.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/contact-form-large/ContactFormLarge.stories.tsx"
         }
       ]
     },
@@ -1103,10 +1103,10 @@
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.stories.tsx"
         },
         {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
+          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         },
         {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
           "moduleName": "./src/components/card-event-pattern/CardEventPattern.tsx"
@@ -1133,10 +1133,10 @@
           "moduleName": "./src/components/infographic-image-pattern/InfographicImagePattern.tsx"
         },
         {
-          "moduleName": "./src/components/map-card/MapCard.tsx"
+          "moduleName": "./src/components/media-text-small-pattern/MediaTextSmallPattern.tsx"
         },
         {
-          "moduleName": "./src/components/media-text-small-pattern/MediaTextSmallPattern.tsx"
+          "moduleName": "./src/components/map-card/MapCard.tsx"
         },
         {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
@@ -1306,6 +1306,15 @@
       ]
     },
     {
+      "id": "./src/components/news-details/NewsDetails.tsx",
+      "name": "./src/components/news-details/NewsDetails.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/news-details/NewsDetails.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/assets/zep-cat-logo.svg",
       "name": "./src/assets/zep-cat-logo.svg",
       "reasons": [
@@ -1320,15 +1329,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/navigation/Navigation.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/news-details/NewsDetails.tsx",
-      "name": "./src/components/news-details/NewsDetails.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/news-details/NewsDetails.stories.tsx"
         }
       ]
     },
@@ -1385,10 +1385,10 @@
           "moduleName": "./src/components/map-card/MapCard.tsx"
         },
         {
-          "moduleName": "./src/components/media-text/MediaText.tsx"
+          "moduleName": "./src/components/modal-component/ModalComponent.tsx"
         },
         {
-          "moduleName": "./src/components/modal-component/ModalComponent.tsx"
+          "moduleName": "./src/components/media-text/MediaText.tsx"
         },
         {
           "moduleName": "./src/components/product-highlight/Product-highlight.tsx"
@@ -1397,10 +1397,10 @@
           "moduleName": "./src/components/table-pattern/TablePattern.tsx"
         },
         {
-          "moduleName": "./src/components/used-machine-info/UsedMachineInfo.tsx"
+          "moduleName": "./src/components/text-highlight/TextHighlight.tsx"
         },
         {
-          "moduleName": "./src/components/text-highlight/TextHighlight.tsx"
+          "moduleName": "./src/components/used-machine-info/UsedMachineInfo.tsx"
         },
         {
           "moduleName": "./src/components/used-machine-pattern/UsedMachinePattern.tsx"
@@ -1444,6 +1444,15 @@
       ]
     },
     {
+      "id": "./src/components/table-pattern/TablePattern.tsx",
+      "name": "./src/components/table-pattern/TablePattern.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/table-pattern/TablePattern.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/slider/Slider.tsx",
       "name": "./src/components/slider/Slider.tsx",
       "reasons": [
@@ -1452,15 +1461,6 @@
         },
         {
           "moduleName": "./src/components/slider/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/table-pattern/TablePattern.tsx",
-      "name": "./src/components/table-pattern/TablePattern.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/table-pattern/TablePattern.stories.tsx"
         }
       ]
     },
@@ -1688,13 +1688,13 @@
           "moduleName": "./src/components/scrollbar/Scrollbar.stories.tsx"
         },
         {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
-        },
-        {
           "moduleName": "./src/components/Teaser-simple/Teaser-simple.tsx"
         },
         {
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
           "moduleName": "./src/components/card-event-pattern/CardEventPattern.tsx"
@@ -1721,10 +1721,10 @@
           "moduleName": "./src/components/header-short/HeaderShort.tsx"
         },
         {
-          "moduleName": "./src/components/hero/Hero.tsx"
+          "moduleName": "./src/components/image-image-pattern/ImageImagePattern.tsx"
         },
         {
-          "moduleName": "./src/components/image-image-pattern/ImageImagePattern.tsx"
+          "moduleName": "./src/components/hero/Hero.tsx"
         },
         {
           "moduleName": "./src/components/infographic-image-pattern/InfographicImagePattern.tsx"
@@ -1733,22 +1733,22 @@
           "moduleName": "./src/components/lead-text/LeadText.tsx"
         },
         {
-          "moduleName": "./src/components/map-card/MapCard.tsx"
-        },
-        {
           "moduleName": "./src/components/media-text-pattern/MediaTextPattern.tsx"
         },
         {
           "moduleName": "./src/components/media-text-small-pattern/MediaTextSmallPattern.tsx"
         },
         {
+          "moduleName": "./src/components/map-card/MapCard.tsx"
+        },
+        {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
         },
         {
-          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
+          "moduleName": "./src/components/news-details/NewsDetails.tsx"
         },
         {
-          "moduleName": "./src/components/news-details/NewsDetails.tsx"
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
         },
         {
           "moduleName": "./src/components/process-chain/ProcessChain.tsx"
@@ -1766,10 +1766,10 @@
           "moduleName": "./src/components/table-pattern/TablePattern.tsx"
         },
         {
-          "moduleName": "./src/components/used-machine-info/UsedMachineInfo.tsx"
+          "moduleName": "./src/components/text-highlight/TextHighlight.tsx"
         },
         {
-          "moduleName": "./src/components/text-highlight/TextHighlight.tsx"
+          "moduleName": "./src/components/used-machine-info/UsedMachineInfo.tsx"
         },
         {
           "moduleName": "./src/components/used-machine-pattern/UsedMachinePattern.tsx"
@@ -1788,36 +1788,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/text-highlight/TextHighlight.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.tsx",
-      "name": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.interface.ts",
-      "name": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.interface.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/index.ts"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-locales.ts"
         }
       ]
     },
@@ -1846,6 +1816,36 @@
       ]
     },
     {
+      "id": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.tsx",
+      "name": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.interface.ts",
+      "name": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.interface.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/index.ts"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-locales.ts"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.tsx",
       "name": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.tsx",
       "reasons": [
@@ -1854,36 +1854,6 @@
         },
         {
           "moduleName": "./src/components/used-machine-pattern/used-machine-filters/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/anchor-navigation-card/index.ts",
-      "name": "./src/components/anchor-navigation-card/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/scrollbar/index.ts",
-      "name": "./src/components/scrollbar/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
-        },
-        {
-          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
-        },
-        {
-          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
-        },
-        {
-          "moduleName": "./src/components/process-chain/ProcessChain.tsx"
-        },
-        {
-          "moduleName": "./src/components/usp-list/UspList.tsx"
         }
       ]
     },
@@ -1898,10 +1868,10 @@
           "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
         },
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
+          "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
         },
         {
-          "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/card-square/CardSquare.tsx"
@@ -1922,10 +1892,10 @@
           "moduleName": "./src/components/link-list-item/LinkListItem.tsx"
         },
         {
-          "moduleName": "./src/components/map-card/MapCard.tsx"
+          "moduleName": "./src/components/media-text-small-pattern/MediaTextSmallPattern.tsx"
         },
         {
-          "moduleName": "./src/components/media-text-small-pattern/MediaTextSmallPattern.tsx"
+          "moduleName": "./src/components/map-card/MapCard.tsx"
         },
         {
           "moduleName": "./src/components/media-text-small/MediaTextSmall.tsx"
@@ -2017,6 +1987,36 @@
       ]
     },
     {
+      "id": "./src/components/anchor-navigation-card/index.ts",
+      "name": "./src/components/anchor-navigation-card/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/scrollbar/index.ts",
+      "name": "./src/components/scrollbar/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
+        },
+        {
+          "moduleName": "./src/components/card-media-pattern/CardMediaPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
+        },
+        {
+          "moduleName": "./src/components/process-chain/ProcessChain.tsx"
+        },
+        {
+          "moduleName": "./src/components/usp-list/UspList.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/card-event-pattern/card-event/index.ts",
       "name": "./src/components/card-event-pattern/card-event/index.ts",
       "reasons": [
@@ -2030,10 +2030,10 @@
       "name": "./src/utils/getUrlWithTrailingSlash.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
+          "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
         },
         {
-          "moduleName": "./src/components/card-event-pattern/card-event/CardEvent.tsx"
+          "moduleName": "./src/components/card-media-component/CardMedia.tsx"
         },
         {
           "moduleName": "./src/components/card-square/CardSquare.tsx"
@@ -2079,6 +2079,75 @@
       "reasons": [
         {
           "moduleName": "./src/components/card-square-list/CardSquareList.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./public/assets/yellow-right-arrow.svg",
+      "name": "./public/assets/yellow-right-arrow.svg",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square/CardSquare.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/hooks/useContainerDimensions.ts",
+      "name": "./src/hooks/useContainerDimensions.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square/CardSquare.tsx"
+        },
+        {
+          "moduleName": "./src/components/infographic-image/InfographicImage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/utils/getDataLayer.ts",
+      "name": "./src/utils/getDataLayer.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square/CardSquare.tsx"
+        },
+        {
+          "moduleName": "./src/components/contact-form-events/ContactFormEvents.tsx"
+        },
+        {
+          "moduleName": "./src/components/contact-form-large/ContactFormLarge.tsx"
+        },
+        {
+          "moduleName": "./src/components/contact-form/ContactForm.tsx"
+        },
+        {
+          "moduleName": "./src/components/footer/Footer.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/link-list-item/LinkListItem.tsx"
+        },
+        {
+          "moduleName": "./src/components/navigation/Navigation.tsx"
+        },
+        {
+          "moduleName": "./src/components/zps-button/ZpsButton.tsx"
+        },
+        {
+          "moduleName": "./src/components/navigation/LanguageSwitcher.tsx"
+        },
+        {
+          "moduleName": "./src/components/navigation/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/utils/slugify.ts",
+      "name": "./src/utils/slugify.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-square/CardSquare.tsx"
         }
       ]
     },
@@ -2158,75 +2227,6 @@
       ]
     },
     {
-      "id": "./src/utils/getDataLayer.ts",
-      "name": "./src/utils/getDataLayer.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/contact-form-events/ContactFormEvents.tsx"
-        },
-        {
-          "moduleName": "./src/components/card-square/CardSquare.tsx"
-        },
-        {
-          "moduleName": "./src/components/contact-form-large/ContactFormLarge.tsx"
-        },
-        {
-          "moduleName": "./src/components/contact-form/ContactForm.tsx"
-        },
-        {
-          "moduleName": "./src/components/footer/Footer.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/Hero.tsx"
-        },
-        {
-          "moduleName": "./src/components/link-list-item/LinkListItem.tsx"
-        },
-        {
-          "moduleName": "./src/components/navigation/Navigation.tsx"
-        },
-        {
-          "moduleName": "./src/components/zps-button/ZpsButton.tsx"
-        },
-        {
-          "moduleName": "./src/components/navigation/LanguageSwitcher.tsx"
-        },
-        {
-          "moduleName": "./src/components/navigation/Sidebar.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./public/assets/yellow-right-arrow.svg",
-      "name": "./public/assets/yellow-right-arrow.svg",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-square/CardSquare.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/hooks/useContainerDimensions.ts",
-      "name": "./src/hooks/useContainerDimensions.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-square/CardSquare.tsx"
-        },
-        {
-          "moduleName": "./src/components/infographic-image/InfographicImage.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/utils/slugify.ts",
-      "name": "./src/utils/slugify.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-square/CardSquare.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/constants/countries.ts",
       "name": "./src/constants/countries.ts",
       "reasons": [
@@ -2261,10 +2261,10 @@
       "name": "./src/components/multi-link-list/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form/ContactForm.tsx"
+          "moduleName": "./src/components/contact-section/ContactSection.tsx"
         },
         {
-          "moduleName": "./src/components/contact-section/ContactSection.tsx"
+          "moduleName": "./src/components/contact-form/ContactForm.tsx"
         },
         {
           "moduleName": "./src/components/footer/Footer.tsx"
@@ -2392,6 +2392,18 @@
       ]
     },
     {
+      "id": "./src/components/link-list-item/index.ts",
+      "name": "./src/components/link-list-item/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
+        },
+        {
+          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/assets/burger.svg",
       "name": "./src/assets/burger.svg",
       "reasons": [
@@ -2434,18 +2446,6 @@
       ]
     },
     {
-      "id": "./src/components/link-list-item/index.ts",
-      "name": "./src/components/link-list-item/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/gallery/index.ts",
       "name": "./src/components/gallery/index.ts",
       "reasons": [
@@ -2464,14 +2464,17 @@
       ]
     },
     {
-      "id": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx",
-      "name": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx",
+      "id": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
+      "name": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.tsx"
+          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/index.ts"
         },
         {
-          "moduleName": "./src/components/used-machine-pattern/index.ts"
+          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.tsx"
+        },
+        {
+          "moduleName": "./src/components/used-machine-pattern/used-machine-locales.ts"
         }
       ]
     },
@@ -2494,17 +2497,14 @@
       ]
     },
     {
-      "id": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
-      "name": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.interface.ts",
+      "id": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx",
+      "name": "./src/components/used-machine-pattern/used-machine-card/UsedMachineDescription.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/index.ts"
+          "moduleName": "./src/components/used-machine-pattern/used-machine-card/UsedMachineCard.tsx"
         },
         {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-filters/UsedMachineFilters.tsx"
-        },
-        {
-          "moduleName": "./src/components/used-machine-pattern/used-machine-locales.ts"
+          "moduleName": "./src/components/used-machine-pattern/index.ts"
         }
       ]
     },
@@ -2530,6 +2530,15 @@
       ]
     },
     {
+      "id": "./src/components/form-fields/text-area/TextArea.tsx",
+      "name": "./src/components/form-fields/text-area/TextArea.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/form-fields/text-area/index.ts"
+        }
+      ]
+    },
+    {
       "id": "./src/components/form-fields/radio/Radio.tsx",
       "name": "./src/components/form-fields/radio/Radio.tsx",
       "reasons": [
@@ -2544,15 +2553,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/form-fields/input/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/form-fields/text-area/TextArea.tsx",
-      "name": "./src/components/form-fields/text-area/TextArea.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/form-fields/text-area/index.ts"
         }
       ]
     },
