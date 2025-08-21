@@ -16,5 +16,7 @@ export interface MapCardProps extends Partial<Exclude<HeaderLongProps, 'variant'
     apiKey: string;
     panelHeadline: string;
     id?: string;
+    cookiesResetLabel: string;
+    cookiesLayerDescription: string;
 }
 //# sourceMappingURL=MapCard.interface.d.ts.map
