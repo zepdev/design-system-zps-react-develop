@@ -14,7 +14,7 @@ export * from './card-square-list';
 export * from './contact-form';
 export * from './contact-form-events';
 export * from './contact-form-large';
-export * from './contact-form-whitepaper';
+export * from './contact-form-lead';
 export * from './contact-section';
 export * from './feedback';
 export * from './footer';
