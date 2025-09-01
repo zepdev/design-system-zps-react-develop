@@ -1,5 +1,5 @@
-import { LocaleVariants } from '../../interfaces/global-variants';
 import { LinkListItemProps } from '../link-list-item';
+import { LocaleVariants } from '../../interfaces/global-variants';
 
 export interface LightboxContactFormProps {
     onSubmit: (data: unknown) => void;
@@ -10,6 +10,6 @@ export interface LightboxContactFormProps {
     contactArea?: string;
     contactList?: LinkListItemProps[];
     privacyPolicyUrl: string;
-    type?: 'default' | 'fair-events';
+    type?: 'default' | 'fair-events' | 'lead-contact';
 }
 //# sourceMappingURL=lightbox-contact-form.interface.d.ts.map
