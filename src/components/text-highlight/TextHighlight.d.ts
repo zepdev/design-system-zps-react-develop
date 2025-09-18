@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { AccordionProps, RichTextProps, TableProps, TextHighlightProps, THContext } from './TextHighlight.interface';
+import { AccordionProps, RichTextProps, THContext, TableProps, TextHighlightProps } from './TextHighlight.interface';
 
 export declare const useTextHighlightContext: () => THContext;
 declare const TextHighlight: {
