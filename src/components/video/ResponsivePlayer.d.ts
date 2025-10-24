@@ -5,6 +5,6 @@ interface ResponsivePlayerProps {
     label?: string;
     description?: string;
 }
-declare const ResponsivePlayer: ({ url, thumbnail, label, description }: ResponsivePlayerProps) => import("react/jsx-dev-runtime").JSX.Element;
+declare const ResponsivePlayer: ({ url, label, description }: ResponsivePlayerProps) => import("react/jsx-dev-runtime").JSX.Element;
 export default ResponsivePlayer;
 //# sourceMappingURL=ResponsivePlayer.d.ts.map
