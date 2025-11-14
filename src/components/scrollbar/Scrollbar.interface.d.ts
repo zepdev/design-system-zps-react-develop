@@ -7,5 +7,6 @@ export interface ScrollbarProps {
     dataTestId?: string;
     theme?: 'light' | 'dark';
     scrollOrientation?: 'both' | 'horizontal' | 'vertical';
+    horizontalClassName?: string;
 }
 //# sourceMappingURL=Scrollbar.interface.d.ts.map
