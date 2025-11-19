@@ -18,6 +18,7 @@ export * from './contact-form-lead';
 export * from './contact-section';
 export * from './feedback';
 export * from './footer';
+export * from './form-success-message';
 export * from './gallery';
 export * from './header-long';
 export * from './header-short';
