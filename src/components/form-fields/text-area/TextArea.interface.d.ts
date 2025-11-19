@@ -5,6 +5,7 @@ export interface TextAreaProps extends InputHTMLAttributes<HTMLTextAreaElement> 
     label?: string;
     message?: string;
     readOnly?: boolean;
+    required?: boolean;
     state?: 'default' | 'error' | 'info';
     totalCharacters?: number;
 }
