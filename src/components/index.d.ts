@@ -41,6 +41,7 @@ export * from './news-details';
 export * from './partner-communication';
 export * from './process-chain';
 export * from './product-highlight';
+export * from './redirect-modal';
 export * from './rich-text';
 export * from './rich-text-pattern';
 export * from './scrollbar';
