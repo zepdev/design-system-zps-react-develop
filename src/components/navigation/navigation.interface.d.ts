@@ -22,7 +22,6 @@ export interface SidebarProps {
     setInitialPath: (x: string[]) => void;
     selectedLocale?: Locale;
     locales?: Locale[];
-    header?: string;
     labelBack: string;
     setSelectedLocale?: (x: Locale) => void;
     navigationUtilityItems?: NavUtilityItem[];
@@ -38,11 +37,7 @@ export interface NavigationProps {
     currentUrl?: string;
 }
 export interface LanguageSwitcherProps {
-    header: string;
-    labelBack: string;
-    setLocaleSwitcherMenu?: (x: boolean) => void;
     selectedLocale?: Locale;
-    setLanguageSwitcher?: (x: boolean) => void;
     locales?: Locale[];
     setSelectedLocale?: (x: Locale) => void;
 }
