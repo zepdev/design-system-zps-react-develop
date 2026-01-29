@@ -1,6 +1,6 @@
 import { default as React } from 'react';
-import { AnchorNavigationCardProps } from './anchor-navigation-card.interface';
 import { GlobalVariants } from '../../interfaces/global-variants';
+import { AnchorNavigationCardProps } from './anchor-navigation-card.interface';
 
 export declare const anchorCardVariants: {
     ZPS: string[];
