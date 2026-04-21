@@ -12,6 +12,11 @@ export interface CardMediaProps {
     linkType?: 'internal-link' | 'external-link' | 'download';
     icon?: FunctionalIconNames;
     iconPosition?: 'before' | 'after';
+    secondaryLinkText?: string;
+    secondaryLinkSrc?: string;
+    secondaryLinkType?: 'internal-link' | 'external-link' | 'download';
+    secondaryIcon?: FunctionalIconNames;
+    secondaryIconPosition?: 'before' | 'after';
     variant?: GlobalVariants;
     className?: string;
 }
