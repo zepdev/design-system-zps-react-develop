@@ -1,0 +1,6 @@
+import{C as i}from"./CookieLayer-DOk2PC6L.js";import"./jsx-dev-runtime-DxtWBBhT.js";import"./index-cDoxnID5.js";import"./_commonjsHelpers-BosuxZz1.js";import"./clsx-B-dksMZM.js";import"./ZpsButton-D11UPFc7.js";import"./index.es13-DvMMQ7IO.js";import"./jsx-runtime-CNPC69dV.js";import"./index.es17-CiSAzvV-.js";import"./index.es25-C4EHCV_l.js";import"./index.es36-BF3AzYXZ.js";import"./index.es32-D9mbuw9C.js";import"./index-Dp3B9jqt.js";import"./getDataLayer-CP2Cgxnv.js";import"./getUrlWithTrailingSlash-D5oSkRKV.js";import"./linkSecurity-DjaWK124.js";import"./tw-merge-Ds6tgvmq.js";const j={title:"Components/CookieLayer",component:i,tags:["autodocs"],argTypes:{onClickCookies:{action:"clicked"}}},t={args:{description:"Please accept the marketing cookies to view this content.",label:"Adjust Cookie Settings"}};var o,e,r;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    description: 'Please accept the marketing cookies to view this content.',
+    label: 'Adjust Cookie Settings'
+  }
+}`,...(r=(e=t.parameters)==null?void 0:e.docs)==null?void 0:r.source}}};const v=["Default"];export{t as Default,v as __namedExportsOrder,j as default};
