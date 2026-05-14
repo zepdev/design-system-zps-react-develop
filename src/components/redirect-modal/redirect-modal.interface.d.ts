@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react';
-
 export interface RedirectModalProps extends HTMLAttributes<HTMLDivElement> {
     isOpen: boolean;
     setIsOpen: (x: boolean) => void;

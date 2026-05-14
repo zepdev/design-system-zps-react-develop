@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { MediaTextSmallPatternProps } from './media-text-small-pattern.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<MediaTextSmallPatternProps>;

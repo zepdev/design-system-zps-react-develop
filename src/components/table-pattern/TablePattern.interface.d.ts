@@ -4,7 +4,6 @@ import { FunctionalIconNames, TableColumn } from '@zepdev/design-system-componen
 import { ZpsButtonVariant } from '../zps-button';
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { HeaderLongComponentProps } from '../header-long-component';
-
 export interface TablePatternProps extends Omit<HeaderLongComponentProps, 'variant'> {
     columns: TableColumn<object>[];
     dataSource: object[];

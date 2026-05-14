@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { CardSquareProps } from './card-square.interface';
-
 export declare const cardSquareVariants: {
     ZPS: string[];
     CAT: string[];

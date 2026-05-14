@@ -1,5 +1,4 @@
 import { LocaleVariants } from '../../interfaces/global-variants';
-
 export interface ContactFormLeadProps {
     locale: LocaleVariants;
     loading?: boolean;

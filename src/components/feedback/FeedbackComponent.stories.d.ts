@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { FeedbackProps } from './feedback.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<FeedbackProps>;

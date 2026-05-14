@@ -2,7 +2,6 @@ import { MouseEvent } from 'react';
 import { GlobalVariantExtended, GlobalVariants } from '../../interfaces/global-variants';
 import { BlocksContent } from '@strapi/blocks-react-renderer';
 import { FunctionalIconNames, LinkTarget } from '@zepdev/design-system-component-library-react';
-
 export interface LinkComponentProps {
     linkText?: string;
     linkHref?: string;

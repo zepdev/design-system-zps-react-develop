@@ -1,5 +1,4 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-
 export interface Point {
     x: number;
     y: number;

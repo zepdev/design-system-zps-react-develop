@@ -1,4 +1,3 @@
-
 export * from '../interfaces/global-variants';
 export * from './Teaser-simple';
 export * from './USP';

@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { InfographicImageProps } from './infographic-image.interface';
-
 export declare const infographicImageVariants: {
     ZPS: never[];
     CAT: never[];

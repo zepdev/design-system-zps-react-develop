@@ -2,7 +2,6 @@ import { MachineCategory, MachineFuel, MachineGenSetType, MachineRating } from '
 import { Dispatch, SetStateAction } from 'react';
 import { LocaleVariants } from '../../../interfaces/global-variants';
 import { SliderProps } from '../../slider';
-
 export declare enum MachineSort {
     POWER_ASCENDING = "power:asc",
     POWER_DESCENDING = "power:desc"

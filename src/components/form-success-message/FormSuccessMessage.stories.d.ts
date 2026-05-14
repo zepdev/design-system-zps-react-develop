@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { FormSuccessMessageProps } from './form-success-message.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<FormSuccessMessageProps>;

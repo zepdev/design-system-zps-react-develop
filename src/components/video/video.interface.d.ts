@@ -1,5 +1,4 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-
 export interface SingleVideo {
     title: string;
     tagline: string;

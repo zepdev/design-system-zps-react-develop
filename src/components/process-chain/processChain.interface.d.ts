@@ -1,6 +1,5 @@
 import { HeaderLongProps } from '../header-long';
 import { GlobalVariants } from '../../interfaces/global-variants';
-
 export interface ProcessChainItem {
     headline: string;
     listItems: string[];

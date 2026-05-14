@@ -1,7 +1,6 @@
 import { StoryObj } from '@storybook/react';
 import { UsedMachineFiltersProps, UsedMachineFiltersType } from './UsedMachineFilters.interface';
 import { LocaleVariants } from '../../../interfaces/global-variants';
-
 declare const meta: {
     title: string;
     component: import('react').FC<UsedMachineFiltersProps>;

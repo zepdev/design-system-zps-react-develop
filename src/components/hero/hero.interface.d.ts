@@ -1,7 +1,6 @@
 import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
 import { MouseEvent } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
-
 export interface HeroProps extends HeroImageProps {
     variant?: GlobalVariants;
     headline: string;

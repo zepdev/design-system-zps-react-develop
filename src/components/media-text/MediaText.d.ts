@@ -1,6 +1,5 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { MediaTextContentProps } from './MediaText.interface';
-
 export declare const useMediaTextContext: () => {
     imageAlignment: string;
     variant: GlobalVariants;

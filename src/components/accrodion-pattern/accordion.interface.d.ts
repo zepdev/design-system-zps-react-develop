@@ -4,7 +4,6 @@ import { HeaderLongProps } from '../header-long';
 import { MouseEvent } from 'react';
 import { ZpsButtonVariant } from '../zps-button';
 import { FunctionalIconNames, TableColumn } from '@zepdev/design-system-component-library-react';
-
 export interface TableProps {
     columns: TableColumn<object>[];
     dataSource: object[];

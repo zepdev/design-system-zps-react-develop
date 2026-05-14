@@ -1,5 +1,4 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-
 export interface FeedbackProps {
     headline: string;
     likeText: string;

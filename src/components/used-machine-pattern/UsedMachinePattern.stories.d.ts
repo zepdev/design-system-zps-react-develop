@@ -3,7 +3,6 @@ import { UsedMachinePatternProps } from './UsedMachinePattern.interface';
 import { LocaleVariants } from '../../interfaces/global-variants';
 import { UsedMachineCardProps } from './used-machine-card';
 import { UsedMachineFiltersType } from './used-machine-filters';
-
 declare const meta: {
     title: string;
     component: import('react').FC<UsedMachinePatternProps>;

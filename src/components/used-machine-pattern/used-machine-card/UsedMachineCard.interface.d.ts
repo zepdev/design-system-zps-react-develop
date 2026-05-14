@@ -1,5 +1,4 @@
 import { LocaleVariants } from '../../../interfaces/global-variants';
-
 export declare enum MachineRating {
     STAND_BY = "standby",
     CONTINUOUS = "continuous",

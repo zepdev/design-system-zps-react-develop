@@ -1,5 +1,4 @@
 import { StoryObj } from '@storybook/react';
-
 declare const meta: {
     title: string;
     component: ({ imageAlignment, variant, headline, tagline, content, labelSecondary, labelPrimary, onClickSecondary, onClickPrimary, src, alt, urlPrimary, urlSecondary, iconPrimaryPosition, iconSecondaryPosition, iconPrimary, iconSecondary, }: import('./MediaText.interface').MediaTextContentProps) => import("react/jsx-dev-runtime").JSX.Element;

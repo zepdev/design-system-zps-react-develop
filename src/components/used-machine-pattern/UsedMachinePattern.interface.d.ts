@@ -1,7 +1,6 @@
 import { UsedMachineCardProps } from './used-machine-card';
 import { UsedMachineFiltersProps } from './used-machine-filters';
 import { Dispatch, MouseEvent, SetStateAction } from 'react';
-
 export interface UsedMachinePatternProps extends UsedMachineFiltersProps {
     cards: UsedMachineCardProps[];
     total: number;

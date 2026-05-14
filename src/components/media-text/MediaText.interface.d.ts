@@ -2,7 +2,6 @@ import { BlocksContent } from '@strapi/blocks-react-renderer';
 import { ReactNode } from 'react';
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
-
 export interface MediaTextContentProps extends MediaTextImageProps, MediaTextButtonProps {
     headline?: string;
     tagline?: string;

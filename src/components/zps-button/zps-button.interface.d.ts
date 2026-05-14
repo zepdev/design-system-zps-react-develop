@@ -1,6 +1,5 @@
 import { ButtonHTMLAttributes, MouseEvent, ReactNode } from 'react';
 import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
-
 export declare enum ZpsButtonVariant {
     Primary = "primary",
     Secondary = "secondary",

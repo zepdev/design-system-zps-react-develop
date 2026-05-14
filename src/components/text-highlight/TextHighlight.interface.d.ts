@@ -5,7 +5,6 @@ import { GlobalVariants } from '../../interfaces/global-variants';
 import { AccordionContent } from '../accrodion-pattern';
 import { HeaderLongProps } from '../header-long';
 import { ZpsButtonVariant } from '../zps-button';
-
 export interface AccordionProps {
     contents: AccordionContent[];
 }

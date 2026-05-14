@@ -1,7 +1,6 @@
 import { HeaderLongProps } from '../header-long';
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { BlocksContent } from '@strapi/blocks-react-renderer';
-
 export interface Poi {
     key: string;
     title: string;

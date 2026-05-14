@@ -1,6 +1,5 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
 import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
-
 export interface CardMediaProps {
     imageSrc: string;
     imageAlt: string;

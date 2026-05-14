@@ -1,5 +1,4 @@
 import { GlobalVariants } from '../../interfaces/global-variants';
-
 export declare enum HeaderShortDefault {
     default = "default"
 }

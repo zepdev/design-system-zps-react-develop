@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { ContactFormLeadProps } from './contact-form-lead.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<ContactFormLeadProps>;

@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { RedirectModalProps } from './redirect-modal.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<RedirectModalProps>;

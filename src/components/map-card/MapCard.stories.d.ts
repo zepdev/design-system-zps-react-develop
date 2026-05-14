@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { MapCardProps } from './MapCard.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<MapCardProps>;

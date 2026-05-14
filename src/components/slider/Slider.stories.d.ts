@@ -1,6 +1,5 @@
 import { StoryObj } from '@storybook/react';
 import { SliderProps } from './Slider.interface';
-
 declare const meta: {
     title: string;
     component: import('react').FC<SliderProps>;
