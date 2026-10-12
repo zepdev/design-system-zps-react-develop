@@ -5,5 +5,7 @@ export interface FooterProps extends Omit<MultiLinkListProps, 'variant'> {
     socialMediaTitle: string;
     footerLinks: LinkProps[];
     footerText?: string;
+    /** Company name after the year in the copyright line. */
+    copyrightHolder?: string;
 }
 //# sourceMappingURL=Footer.interface.d.ts.map

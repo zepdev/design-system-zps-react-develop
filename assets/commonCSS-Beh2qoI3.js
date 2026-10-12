@@ -1,0 +1,1 @@
+import{a as t,G as a}from"./global-variants-BqXUcqLU.js";const o={[t.ZpsBg]:"zep-bg-gradient-to-r zep-from-brand-gradient-from zep-to-brand-gradient-to",[t.CatBg]:"zep-bg-background-dark"},e={[a.Zps]:"zep-text-primary-default",[a.Cat]:"zep-text-typography-dark-100",[t.CatBg]:"zep-text-typography-light-100",[t.ZpsBg]:"zep-text-typography-light-100"};export{o as b,e as t};
