@@ -1,0 +1,5 @@
+import{j as s}from"./jsx-dev-runtime-DUe1FbZV.js";import{A as i}from"./AiBadge-Ce5eJvsa.js";import"./index-CnaUG9bL.js";import"./clsx-B-dksMZM.js";const p={title:"Components/AiBadge",component:i,tags:["autodocs"],decorators:[t=>s.jsxDEV("div",{className:"zep-relative zep-w-[480px] zep-max-w-full",children:[s.jsxDEV("img",{className:"zep-block zep-w-full",src:"./assets/image-4_3.png",alt:""},void 0,!1,{fileName:"/home/circleci/project/src/components/ai-badge/AiBadge.stories.tsx",lineNumber:11,columnNumber:9},void 0),s.jsxDEV(t,{},void 0,!1,{fileName:"/home/circleci/project/src/components/ai-badge/AiBadge.stories.tsx",lineNumber:12,columnNumber:9},void 0)]},void 0,!0,{fileName:"/home/circleci/project/src/components/ai-badge/AiBadge.stories.tsx",lineNumber:10,columnNumber:7},void 0)]},e={args:{className:"zep-bottom-1 zep-right-1"}};var o,a,r;e.parameters={...e.parameters,docs:{...(o=e.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    className: 'zep-bottom-1 zep-right-1'
+  }
+}`,...(r=(a=e.parameters)==null?void 0:a.docs)==null?void 0:r.source}}};const d=["Default"];export{e as Default,d as __namedExportsOrder,p as default};

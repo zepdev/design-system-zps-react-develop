@@ -31,6 +31,8 @@ export interface TextHighlightProps extends Partial<Omit<HeaderLongProps, 'varia
     children: ReactElement<AccordionProps> | ReactElement<TableProps> | ReactElement<RichTextProps>;
     imageSrc: string;
     imageAlt: string;
+    /** Shows the AI badge on the image. */
+    imageAiGenerated?: boolean;
     variant?: GlobalVariants;
     imageAlignment?: 'left' | 'right';
     topDescription?: BlocksContent;

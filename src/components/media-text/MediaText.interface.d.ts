@@ -15,6 +15,8 @@ export interface MediaTextBodyProps {
 export interface MediaTextImageProps {
     src: string;
     alt: string;
+    /** Shows the AI badge on the image. */
+    aiGenerated?: boolean;
 }
 export interface MediaTextButtonProps {
     labelPrimary?: string;

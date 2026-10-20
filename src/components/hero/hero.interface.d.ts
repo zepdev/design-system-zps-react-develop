@@ -19,6 +19,8 @@ export interface HeroProps extends HeroImageProps {
 export interface HeroImageProps {
     imageSrc?: string;
     imageAlt?: string;
+    /** Shows the AI badge on the image. */
+    imageAiGenerated?: boolean;
 }
 export interface HeroHeadlineProps {
     children: string;

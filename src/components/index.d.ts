@@ -2,6 +2,7 @@ export * from '../interfaces/global-variants';
 export * from './Teaser-simple';
 export * from './USP';
 export * from './accrodion-pattern';
+export * from './ai-badge';
 export * from './anchor-navigation-card';
 export * from './anchor-navigation-list';
 export * from './breadcrumb';
