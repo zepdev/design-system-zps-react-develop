@@ -1,2 +1,2 @@
-export declare const getUrlWithTrailingSlash: (url?: string) => string | undefined;
+export declare const getUrlWithTrailingSlash: (url?: string) => any;
 //# sourceMappingURL=getUrlWithTrailingSlash.d.ts.map

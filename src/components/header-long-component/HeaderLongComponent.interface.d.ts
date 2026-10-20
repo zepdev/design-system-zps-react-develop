@@ -17,5 +17,7 @@ export interface HeaderLongComponentProps extends LinkComponentProps {
     tagline?: string;
     headline: string;
     description?: BlocksContent;
+    /** Classes for the outer wrapper (the link's `className` is for the link). */
+    containerClassName?: string;
 }
 //# sourceMappingURL=HeaderLongComponent.interface.d.ts.map
