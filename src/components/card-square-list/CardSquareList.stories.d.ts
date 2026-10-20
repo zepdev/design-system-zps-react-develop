@@ -32,4 +32,6 @@ export declare const With9Items: Story;
 export declare const With10Items: Story;
 export declare const With11Items: Story;
 export declare const With12Items: Story;
+/** 4 static cards with a headline: the ZES "Our approach" section (2 × 2 on ZES). */
+export declare const With4StaticItems: Story;
 //# sourceMappingURL=CardSquareList.stories.d.ts.map

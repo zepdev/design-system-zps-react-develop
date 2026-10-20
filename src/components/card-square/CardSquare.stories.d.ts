@@ -16,4 +16,6 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
+/** Without a URL: a static card, no link, arrow or hover (the ZES "Our approach" cards). */
+export declare const Static: Story;
 //# sourceMappingURL=CardSquare.stories.d.ts.map

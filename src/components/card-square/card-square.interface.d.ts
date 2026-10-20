@@ -8,7 +8,8 @@ export interface CardSquareProps extends HTMLAttributes<HTMLDivElement> {
     headline: string;
     description?: string;
     variant?: GlobalVariants;
-    url: string;
+    /** Without a URL the card is static (no link, arrow or hover). */
+    url?: string;
     gtmHeadline?: string;
     gtmId?: string;
 }

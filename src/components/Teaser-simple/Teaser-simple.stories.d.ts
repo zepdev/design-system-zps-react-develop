@@ -9,4 +9,6 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
+/** With a text under the headline and a link button (the ZES "Introducing" banner). */
+export declare const WithDescriptionAndLink: Story;
 //# sourceMappingURL=Teaser-simple.stories.d.ts.map
