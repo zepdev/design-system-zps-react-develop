@@ -1,0 +1,7 @@
+import{C as p}from"./ContactFormLead-DOD4Hk9h.js";import"./jsx-dev-runtime-DUe1FbZV.js";import"./index-CnaUG9bL.js";import"./types-lzMh8RlT.js";import"./global-variants-BqXUcqLU.js";import"./index.es13-B2rJTKsB.js";import"./jsx-runtime-B3jrUL2l.js";import"./clsx-B-dksMZM.js";import"./index-DdHSt6jH.js";import"./_commonjsHelpers-D6-XlEtG.js";import"./focus-MNa1V5My.js";import"./InlineIcon-B6wivFrP.js";import"./getDataLayer-CP2Cgxnv.js";import"./HeaderLongComponent-FKvPUCt-.js";import"./index.es16-Cou3dY5t.js";import"./index.es32-D9mbuw9C.js";import"./index.es17-CiSAzvV-.js";import"./getUrlWithTrailingSlash-BtqMQXK9.js";import"./linkSecurity-DjaWK124.js";import"./RichText-BQeM_ES-.js";import"./index.es18-D9ixYGCI.js";import"./ZpsButton--kieaf-Q.js";import"./index.es25-CTVOSMAe.js";import"./index.es36-BF3AzYXZ.js";import"./index-Dp3B9jqt.js";import"./tw-merge-Ds6tgvmq.js";const O={title:"Components/ContactFormLead",component:p,tags:["autodocs"],argTypes:{}},o={args:{onSubmit:()=>console.log("form"),locale:"de",privacyPolicyUrl:"https://www.google.com"}};var t,r,m;o.parameters={...o.parameters,docs:{...(t=o.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    onSubmit: () => console.log('form'),
+    locale: 'de',
+    privacyPolicyUrl: 'https://www.google.com'
+  } as ContactFormLeadProps
+}`,...(m=(r=o.parameters)==null?void 0:r.docs)==null?void 0:m.source}}};const T=["Default"];export{o as Default,T as __namedExportsOrder,O as default};
