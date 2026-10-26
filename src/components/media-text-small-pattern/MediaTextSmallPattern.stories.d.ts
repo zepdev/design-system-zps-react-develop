@@ -23,6 +23,10 @@ export declare const With5Items: Story;
 export declare const With6Items: Story;
 export declare const With7Items: Story;
 export declare const With8Items: Story;
-/** People: name and role, a header with text and a button (the ZES "Expertise" section). */
 export declare const People: Story;
+export declare const PeopleWithLinks: Story;
+export declare const ThreePeople: Story;
+export declare const FourPeople: Story;
+export declare const FivePeople: Story;
+export declare const SixPeople: Story;
 //# sourceMappingURL=MediaTextSmallPattern.stories.d.ts.map

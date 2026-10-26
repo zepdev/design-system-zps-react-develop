@@ -5,6 +5,9 @@ export interface MediaTextSmallProps {
     headline: string;
     description?: BlocksContent;
     imageSrc: string;
+    /** Makes the whole card a link, e.g. to a person's LinkedIn profile. */
+    url?: string;
+    /** Defaults to a new tab for external (`http(s)://`) links. */
     target?: LinkTarget;
     imageAlt?: string;
     variant?: GlobalVariants | GlobalVariantExtended;
