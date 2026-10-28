@@ -3,6 +3,7 @@ export declare const mockImage: {
     src: string;
     alt: string;
 };
+export declare const mockRichTextProfile: BlocksContent;
 export declare const mockRichTextShort: BlocksContent;
 export declare const mockRichText: BlocksContent;
 //# sourceMappingURL=mocks.d.ts.map

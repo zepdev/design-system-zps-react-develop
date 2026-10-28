@@ -7,6 +7,8 @@ export interface RichTextProps extends Partial<RichTextBaseProps> {
     appStoreUrl?: string;
     googlePlayUrl?: string;
     className?: string;
+    /** Renders the links as text that looks like a link, for a RichText inside another link (`<a>` can't nest). */
+    linksAsText?: boolean;
 }
 export interface ImageProps {
     url: string;
